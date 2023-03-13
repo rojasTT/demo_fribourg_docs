@@ -1,0 +1,52 @@
+{
+  "environment": {
+    "isEsri": false,
+    "webTierSecurity": false
+  },
+  "localStorage": {
+    "fetch": true
+  },
+  "group": {
+    "default": "",
+    "fetchInfo": false,
+    "fetchItems": false,
+    "itemParams": {
+      "sortField": "modified",
+      "sortOrder": "desc",
+      "num": 9,
+      "start": 0
+    }
+  },
+  "portal": {
+    "fetch": true
+  },
+    "urlParams": [
+      "appid",
+      "oauthappid",
+      "portalUrl",
+      "logoposition",
+      "viewpoint",
+      "webmap",
+      "webscene",
+      "basemaps",
+      "title",
+      "subtitle",
+      "searchsource",
+      "searchtext",
+      "popupConfig",
+      "lat",
+      "lon",
+      "x",
+      "y",
+      "z",
+      "drawGraphic",
+      "wkid",
+      "scale",
+      "rotation",
+      "heading",
+      "tilt",
+      "noscroll",
+      "fValues",
+      "fType"
+    ]
+}

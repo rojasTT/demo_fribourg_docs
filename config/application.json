@@ -1,0 +1,283 @@
+{
+  "portalUrl": "https://topomat.maps.arcgis.com/",
+  "oauthappid": "h7nf2TSctlBeudim",
+  "oauthappid_sitg": "9LModLKY8N60ELHj",
+  "oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
+  "oauthappid_dev": "h7nf2TSctlBeudim",
+  "dataConfigUrl": "config/dataConfig.json",
+  "authenticationPopup": true,
+  "proxyUrl": "proxy.php",
+  "title": "Carte interactive",
+  "subtitle": "",
+  "hastitlebar": true,
+  "haslogo": true,
+  "altlogourl": "https://www.topomat.ch/_maps/assets/logos/logo_sitg.png",
+  "altlogolink": "https://ge.ch/sitg/",
+  "menustyledrawer": false,
+  "layout": "top-small",
+  "panelslayout": "right",
+  "bgcolor": "#474749",
+  "brandcolor": "#539c33",
+  "textcolor": "#fff",
+  "opacity": "1",
+  "css": "",
+  "noscroll": false,
+  "webmap": "0f5bdea149a94d8e9a94e3a42eb3ea27",
+  "webscene": "028b26c88f3940ef981fced177abfb8a",
+  "basemaps": [
+    "614c7804c27d4eb8ba070c73186ac295",
+    "e2f243f934144a9aa33064c8f63dade4",
+    "1bbf905b5d9e42158b79aa375a257c2f",
+    "a343955125bf4002987c400ad6d0346c",
+    "de45b9cad20141ebb82fae0da8b3e2c6",
+    "80a59b0932424184bb16b913b0d7ecd6",
+    "182a2ae00c1e430b9336e3a794ea5455",
+    "01945df33c46478793e20c47ef0b166d"
+  ],
+  "displayWkid": "2056",
+  "wkids": "21781,2056,4326,102100",
+  "popupConfig": {
+    "enabled": true,
+    "docking": "bottom-center",
+    "geometryInfo": false,
+    "excludedFields": {
+      "type": [
+        "oid"
+      ],
+      "name": []
+    }
+  },
+  "lat": null,
+  "lon": null,
+  "x": null,
+  "y": null,
+  "scale": null,
+  "rotation": null,
+  "heading": null,
+  "tilt": null,
+  "altitude": null,
+  "highlightcolor": null,
+  "home": "top-right",
+  "zoomLevel": "top-left",
+  "test": "top-left",
+  "scalebar": "bottom-left",
+  "compass": "top-left",
+  "track": "top-left",
+  "basemapGallery": "expand:top-left",
+  "daylight": "expand:top-left",
+  "dSwitch": "top-right",
+  "basemapToggle": "bottom-right",
+  "nextbasemap": "f1aa737df8cb43a18f316dc38c673a6b",
+  "search": "titlebar",
+  "daynight": "titlebar",
+  "_localeSelector": "titlebar",
+  "geometryfilter": true,
+  "task": "fixed:left",
+  "exportConfig": {
+    "maxNumRecords": null,
+    "toCSV": true,
+    "toKML": true,
+    "toKMZ": true,
+    "toGeoJSON": true,
+    "toGPX": true
+  },
+  "zoomToFilter": false,
+  "includedEffect": "drop-shadow(3px, 3px, 4px)",
+  "excludedEffect": "grayscale(100%) opacity(30%) sepia(20%) brightness(150%)",
+  "helperServices": {
+    "elevationLayers": [
+      {
+        "title": "ground",
+        "url": "//elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer",
+        "_url": "http://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/TopoBathy3D/ImageServer"
+      }
+    ],
+    "_profileService": "https://ge.ch/sitgags2/rest/services/RASTER/MNA_TERRAIN_COLLECTION/MapServer/",
+    "geometry": {
+      "url": null
+    },
+    "printTask": {
+      "url": null
+    },
+    "searchSources": [
+      {
+        "class": "_maps/widgets/search/sources/QuickerSearch",
+        "url": "https://demo.topomat.ch/typesense/multi_search?x-typesense-api-key=xyz",
+        "collection": "data3",
+        "placeholder": "...",
+        "name": "QuickerSearch local",
+        "zoomScale": 2000,
+        "wkid": 2056,
+        "maxResultsPerCategory": 5,
+        "maxResultsOnSingleCategory": 30
+      }
+    ]
+  },
+  "widgets": {
+    "zoomLevel": {
+      "class": "_maps/widgets/tools/Zoom"
+    },
+    "test": {
+      "class": "app/widgets/Test"
+    },
+    "daynight": {
+      "class": "_maps/widgets/ui/DayNight",
+      "options": {
+        "night": true
+      }
+    }
+  },
+  "_widgets": {
+    "daynight": {
+      "class": "_maps/widgets/ui/DayNight",
+      "options": {
+        "night": true
+      }
+    },
+    "fullScreen": {
+      "class": "_maps/widgets/tools/Fullscreen"
+    },
+    "viewOptions": {
+      "class": "_maps/widgets/tools/ViewOptions"
+    },
+    "zoomLevel": {
+      "class": "_maps/widgets/tools/Zoom"
+    },
+    "home": {
+      "class": "_maps/widgets/tools/Home"
+    },
+    "navigationToggle": {
+      "class": "_maps/widgets/tools/NavigationToggle"
+    },
+    "compass": {
+      "class": "_maps/widgets/tools/Compass"
+    },
+    "basemapToggle": {
+      "class": "_maps/widgets/tools/BasemapToggle"
+    },
+    "compare": {
+      "class": "_maps/widgets/tools/Compare",
+      "options": {
+        "configUrl": "config/widgets/compare/config.json"
+      }
+    },
+    "basemapGallery": {
+      "class": "_maps/widgets/tools/BasemapGallery"
+    },
+    "scalebar": {
+      "class": "_maps/widgets/tools/ScaleBar"
+    },
+    "bookmarks": {
+      "class": "_maps/widgets/tools/Bookmarks"
+    },
+    "timeSlider": {
+      "class": "_maps/widgets/tools/TimeSlider"
+    },
+    "daylight": {
+      "class": "_maps/widgets/tools/Daylight"
+    },
+    "measurement": {
+      "class": "_maps/widgets/tools/Measurement"
+    },
+    "layerList": {
+      "class": "_maps/widgets/data/LayerList"
+    },
+    "legend": {
+      "class": "_maps/widgets/legend/Legend"
+    },
+    "profile": {
+      "class": "_maps/widgets/tools/ProfileTool"
+    },
+    "dSwitch": {
+      "class": "_maps/widgets/tools/DSwitch"
+    },
+    "locate": {
+      "class": "_maps/widgets/tools/Locate"
+    },
+    "track": {
+      "class": "_maps/widgets/tools/Track"
+    },
+    "localeSelector": {
+      "class": "_maps/widgets/intl/LocaleSelector",
+      "options": {
+        "locales": [
+          "en",
+          "fr",
+          "de"
+        ]
+      }
+    },
+    "search": {
+      "class": "_maps/widgets/search/Search"
+    },
+    "data": {
+      "class": "_maps/widgets/data/DataPane",
+      "options": {
+        "tabs": [
+          {
+            "name": "catalog",
+            "options": {
+              "title": "Thèmes",
+              "tooltip": "Thématiques du SITG",
+              "favorites": true
+            }
+          },
+          {
+            "name": "contentBrowser",
+            "options": {
+              "title": "Données",
+              "tooltip": "Données du SITG",
+              "groups": "1ef93761c6464ffa91e4c45a3c7f7d25,0a376985c66b4fb08cdba89229e11795",
+              "types": "Feature Service",
+              "filterConfig": {
+                "tags": false,
+                "groups": true,
+                "favorites": true
+              }
+            }
+          },
+          {
+            "name": "content",
+            "options": {
+              "title": "Living Atlas",
+              "tooltip": "Données du Living Altas Esri",
+              "types": "Feature Service,Map Service,Image Service,KML,WMS,WFS,WMTS,Vector Tile Service,Web Map,Scene Service,Web Scene",
+              "categories": null,
+              "filterConfig": {
+                "tags": false,
+                "groups": true,
+                "favorites": true
+              },
+              "showPortalContent": false,
+              "showLivingAtlasContent": true
+            }
+          },
+          {
+            "name": "favorites",
+            "options": {
+              "title": "Favoris",
+              "tooltip": "Données ajoutées en favoris"
+            }
+          },
+          {
+            "name": "import",
+            "options": {
+              "tooltip": "Import de fichiers externes"
+            }
+          }
+        ]
+      }
+    },
+    "save": {
+      "class": "_maps/widgets/save/Save",
+      "options": {
+        "saveServiceUrl": "https://www.topomat.ch/api/_maps/services_ge/",
+        "saveFavoritesOnServer": true,
+        "shareMap": true,
+        "exportMap": true,
+        "saveOnServer": true,
+        "saveOnPortal": true
+      }
+    }
+  }
+}

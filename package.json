@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "npm run dev:copy_esri && npm run dev:copy_calcite && vite",
+    "dev:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./esri_assets",
+    "dev:copy_calcite": "mkdirp ./calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./calcite/assets",
+    "build": "vite build && npm run build:copy_config && npm run build:copy_esri && npm run build:copy_calcite",
+    "build:copy_config": "ncp ./config ./dist/config",
+    "build:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./dist/esri_assets",
+    "build:copy_calcite": "mkdirp ./dist/calcite &&  ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^2.1.5",
+    "ncp": "^2.0.0",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.26.5",
+    "@esri/calcite-components": "1.0.7",
+    "maps": "file:../_maps/build"
+  }
+}
