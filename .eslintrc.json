@@ -1,0 +1,74 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2022
+    },
+    "rules": {
+        "no-console": "off",
+        "import/no-amd": "off",
+        "linebreak-style": "off",
+        "no-undef": "off",
+        "indent": [
+            2,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "func-names": "off",
+        "prefer-arrow-callback": "off",
+        "comma-dangle": "off",
+        "no-unused-vars": "warn",
+        "no-underscore-dangle": "off",
+        "max-len": "off",
+        "prefer-destructuring": "off",
+        "no-param-reassign": "off",
+        "no-else-return": "warn",
+        "prefer-template": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "arrow-body-style": "warn",
+        "spaced-comment": "off",
+        "object-shorthand": "warn",
+        "no-trailing-spaces": "off",
+        "prefer-object-spread": "off",
+        "no-plusplus": "off",
+        "no-restricted-properties": "off",
+        "prefer-promise-reject-errors": "off",
+        "no-mixed-operators": "off",
+        "default-case": "off",
+        "no-case-declarations": "off",
+        "no-buffer-constructor": "off",
+        "no-restricted-globals": "off",
+        "no-return-assign": "off",
+        "no-nested-ternary": "off",
+        "consistent-return": "off",
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true
+            }
+        ],
+        "one-var": "off",
+        "camelcase": "off",
+        "no-lonely-if": "off",
+        "no-prototype-builtins": "off",
+        "no-multi-assign": "off",
+        "function-paren-newline": "off",
+        "class-methods-use-this": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ]
+    }
+}

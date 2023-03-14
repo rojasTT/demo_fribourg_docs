@@ -12,13 +12,12 @@ export default class extends Widget {
             title: 'Test'
         }
     };
-    type = 'Test';
-    declaredClass = 'app.widgets.Test';
-    iconClass = 'esri-icon-experimental';
 
-    constructor(params) {
-        super(params);
-    }
+    type = 'Test';
+
+    declaredClass = 'app.widgets.Test';
+
+    iconClass = 'esri-icon-experimental';
 
     _render() {
         return new Promise((resolve) => {   

@@ -13,7 +13,7 @@ const getJson = async (url) => {
     Widgets.setExternalModulesFunction(AppWidgets.getModule);
 
     const applicationConfig = await getJson('./config/application.json');
-    const applicationBaseConfig = await getJson('./config/applicationBase.json');  
+    const applicationBaseConfig = await getJson('./config/applicationBase.json');
     const maps = new Maps();
     await maps.load(applicationConfig, applicationBaseConfig);
 })();
