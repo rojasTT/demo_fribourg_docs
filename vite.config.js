@@ -7,5 +7,10 @@ export default defineConfig({
         alias: {
             app: path.resolve(__dirname, './src/')
         }
+    },
+    server: {
+        fs: {
+            allow: ['..'] // nécessaire pour que les fonts esri (appelées par le css esri dans _maps) se chargent
+        }
     }
 });
