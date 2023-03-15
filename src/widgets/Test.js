@@ -19,6 +19,11 @@ export default class extends Widget {
 
     iconClass = 'esri-icon-experimental';
 
+    constructor(params, container, position) {
+        super();
+        super.init(params, container, position);
+    }
+
     _render() {
         return new Promise((resolve) => {   
             console.log('Widget Test _render');

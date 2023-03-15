@@ -11,10 +11,23 @@
         "ecmaVersion": 2022
     },
     "rules": {
-        "no-console": "off",
-        "import/no-amd": "off",
-        "linebreak-style": "off",
-        "no-undef": "off",
+        "arrow-body-style": "warn",
+        "camelcase": "off",
+        "class-methods-use-this": "off",
+        "comma-dangle": "off",
+        "consistent-return": "off",
+        "default-case": "off",
+        "func-names": "off",
+        "function-paren-newline": "off",
+        "import/no-cycle": "off",
+        "import/no-dynamic-require": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "import/no-unresolved": "off",
         "indent": [
             2,
             4,
@@ -22,53 +35,45 @@
                 "SwitchCase": 1
             }
         ],
-        "func-names": "off",
-        "prefer-arrow-callback": "off",
-        "comma-dangle": "off",
-        "no-unused-vars": "warn",
-        "no-underscore-dangle": "off",
+        "linebreak-style": "off",
         "max-len": "off",
-        "prefer-destructuring": "off",
-        "no-param-reassign": "off",
-        "no-else-return": "warn",
-        "prefer-template": "off",
-        "global-require": "off",
-        "import/no-dynamic-require": "off",
-        "arrow-body-style": "warn",
-        "spaced-comment": "off",
-        "object-shorthand": "warn",
-        "no-trailing-spaces": "off",
-        "prefer-object-spread": "off",
-        "no-plusplus": "off",
-        "no-restricted-properties": "off",
-        "prefer-promise-reject-errors": "off",
-        "no-mixed-operators": "off",
-        "default-case": "off",
-        "no-case-declarations": "off",
         "no-buffer-constructor": "off",
-        "no-restricted-globals": "off",
-        "no-return-assign": "off",
+        "no-case-declarations": "off",
+        "no-console": "off",
+        "no-else-return": "warn",
+        "no-lonely-if": "off",
+        "no-mixed-operators": "off",
+        "no-multi-assign": "off",
         "no-nested-ternary": "off",
-        "consistent-return": "off",
+        "no-param-reassign": "off",
+        "no-plusplus": "off",
+        "no-prototype-builtins": "off",
+        "no-restricted-globals": "off",
+        "no-restricted-properties": "off",
+        "no-return-assign": "off",
+        "no-trailing-spaces": "off",
+        "no-underscore-dangle": "off",
+        "no-undef": "off",
         "no-unused-expressions": [
             "error",
             {
                 "allowShortCircuit": true
             }
         ],
-        "one-var": "off",
-        "camelcase": "off",
-        "no-lonely-if": "off",
-        "no-prototype-builtins": "off",
-        "no-multi-assign": "off",
-        "function-paren-newline": "off",
-        "class-methods-use-this": "off",
-        "import/no-unresolved": "off",
-        "import/no-extraneous-dependencies": [
+        "no-unused-vars": "warn",
+        "no-use-before-define": [
             "error",
             {
-                "devDependencies": true
+                "functions": false
             }
-        ]
+        ],
+        "object-shorthand": "warn",
+        "one-var": "off",
+        "prefer-arrow-callback": "off",
+        "prefer-destructuring": "off",   
+        "prefer-object-spread": "off",
+        "prefer-promise-reject-errors": "off",
+        "prefer-template": "off",
+        "spaced-comment": "off"
     }
 }
