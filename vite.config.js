@@ -10,7 +10,10 @@ export default defineConfig({
     },
     server: {
         fs: {
-            allow: ['..'] // nécessaire pour que les fonts esri (appelées par le css esri dans _maps) se chargent
+            allow: [ // il faut autoriser vite à chercher des fichiers dans un autre répertoire. Nécessaire pour que les fonts esri (appelées par le css esri dans _maps) se chargent
+                '../../../Develop/_maps_esm',
+                '..'
+            ]
         }
     }
 });
