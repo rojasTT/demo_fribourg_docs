@@ -1,0 +1,50 @@
+{
+    "en": {
+        "title": "Default template",
+        "tools": "Tools",
+        "userProfile": "User profile",
+        "data": "Energis Portal",
+        "layers": "Layer list",
+        "spatialFilter": "Spatial filter",
+        "geoProcessing": "Geoprocessing tools",
+        "legend": "Legend",
+        "options": "Map options",
+        "print": "Print",
+        "save": "Share map",
+        "publishMap": "Map publishing on Energis",
+        "mapManager": "Management of maps to be published on Energis",
+        "report": "Site visit report"
+    },
+    "fr": {
+        "title": "Modèle par défaut",
+        "tools": "Outils",
+        "userProfile": "Profil utilisateur",
+        "data": "Portail Energis",
+        "layers": "Liste des calques",
+        "spatialFilter": "Filtre spatial",
+        "geoProcessing": "Outils de géotraitement",
+        "legend": "Légende",
+        "options": "Options de la carte",
+        "print": "Imprimer",
+        "save": "Partager la carte",
+        "publishMap": "Publication de cartes sur Energis",
+        "mapManager": "Gestion des cartes à publier sur Energis",
+        "report": "Rapport de visite de site"
+    },
+    "de": {
+        "title": "Standardvorlage",
+        "tools": "Verkzeuge",
+        "userProfile": "Benutzerprofil",
+        "data": "Energis-Portal",
+        "layers": "Ebenenliste",
+        "spatialFilter": "Räumlicher Filter",
+        "geoProcessing": "Geoverarbeitungswerkzeuge",
+        "legend": "Legende",
+        "options": "Kartenoptionen",
+        "print": "Drucken",
+        "save": "Karte teilen",
+        "publishMap": "Publikation von Karten auf Energis",
+        "mapManager": "Verwaltung der Karten auf Energis",
+        "report": "Bericht über den Standortbesuch"
+    }
+}
