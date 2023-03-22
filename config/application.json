@@ -1,4 +1,10 @@
 {
+  "appTemplates": [
+    {
+      "name": "default",
+      "url": "templates/default"
+    }
+  ],
   "template": "default",
   "portalUrl": "https://topomat.maps.arcgis.com/",
   "oauthappid": "h7nf2TSctlBeudim",
