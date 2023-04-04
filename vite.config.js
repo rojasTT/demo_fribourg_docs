@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
-import * as path from 'path';
 import fs from 'fs';
+import * as path from 'path';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
     base: './',

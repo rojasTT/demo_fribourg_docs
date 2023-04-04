@@ -23,6 +23,9 @@ export default {
         format: 'system',
         exports: 'named'
     },
-    plugins: [resolve(), production && terser()],
+    plugins: [
+        resolve(),
+        production && terser()
+    ],
     preserveEntrySignatures: 'allow-extension'
 };

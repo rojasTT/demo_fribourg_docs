@@ -27,7 +27,23 @@
                 "devDependencies": true
             }
         ],
-        "import/no-unresolved": "off",
+        "import/no-unresolved": [
+            "error",
+            {
+                "ignore": [
+                    "\\.css",
+                    "\\.html"
+                ]
+            }
+        ],
+        "import/order": ["error", {
+            "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"],
+            "newlines-between": "never",
+            "alphabetize": {
+                "order": "asc",
+                "caseInsensitive": true
+            }
+        }],
         "indent": [
             2,
             4,

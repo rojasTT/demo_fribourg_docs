@@ -2,6 +2,8 @@
   "name": "app",
   "version": "1.0.0",
   "description": "",
+  "author": "",
+  "license": "ISC",
   "main": "",
   "type": "module",
   "scripts": {
@@ -18,8 +20,6 @@
     "build:copy_calcite": "mkdirp ./dist/calcite &&  ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets",
     "build:workers": "rollup --config rollup.worker.config.js"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
@@ -36,6 +36,6 @@
   "dependencies": {
     "@arcgis/core": "~4.26.5",
     "@esri/calcite-components": "1.0.7",
-    "maps": "link:D:/Develop/_maps_esm"
+    "maps": "link:../_maps"
   }
 }
