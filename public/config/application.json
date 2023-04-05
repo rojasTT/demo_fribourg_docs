@@ -11,7 +11,7 @@
   "oauthappid_sitg": "9LModLKY8N60ELHj",
   "oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
   "oauthappid_dev": "h7nf2TSctlBeudim",
-  "dataConfigUrl": "config/dataConfig.json",
+  "dataConfigUrl": "",
   "authenticationPopup": true,
   "proxyUrl": "proxy.php",
   "title": "Carte interactive",
