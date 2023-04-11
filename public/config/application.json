@@ -132,6 +132,17 @@
       "options": {
         "night": true
       }
+    },
+    "save": {
+      "class": "_maps/widgets/save/Save",
+      "options": {
+        "saveServiceUrl": "https://www.topomat.ch/api/_maps/services_ge/",
+        "saveFavoritesOnServer": false,
+        "shareMap": true,
+        "exportMap": false,
+        "saveOnServer": false,
+        "saveOnPortal": false
+      }
     }
   },
   "_widgets": {
@@ -279,11 +290,11 @@
       "class": "_maps/widgets/save/Save",
       "options": {
         "saveServiceUrl": "https://www.topomat.ch/api/_maps/services_ge/",
-        "saveFavoritesOnServer": true,
+        "saveFavoritesOnServer": false,
         "shareMap": true,
-        "exportMap": true,
-        "saveOnServer": true,
-        "saveOnPortal": true
+        "exportMap": false,
+        "saveOnServer": false,
+        "saveOnPortal": false
       }
     }
   }
