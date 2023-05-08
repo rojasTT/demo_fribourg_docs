@@ -11,7 +11,7 @@
   "oauthappid_sitg": "9LModLKY8N60ELHj",
   "oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
   "oauthappid_dev": "h7nf2TSctlBeudim",
-  "dataConfigUrl": "",
+  "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
   "proxyUrl": "proxy.php",
   "title": "Carte interactive",
@@ -136,12 +136,71 @@
     "save": {
       "class": "_maps/widgets/save/Save",
       "options": {
-        "saveServiceUrl": "https://www.topomat.ch/api/_maps/services_ge/",
-        "saveFavoritesOnServer": false,
+        "saveServiceUrl": "https://www.topomat.ch/api/_maps/services/",
+        "saveFavoritesOnServer": true,
         "shareMap": true,
-        "exportMap": false,
-        "saveOnServer": false,
-        "saveOnPortal": false
+        "exportMap": true,
+        "saveOnServer": true,
+        "saveOnPortal": true,
+        "defaultMap": true
+      }
+    },
+    "data": {
+      "class": "_maps/widgets/data/DataPane",
+      "options": {
+        "tabs": [
+          {
+            "name": "favorites",
+            "options": {
+              "title": "Favoris",
+              "tooltip": "Données ajoutées en favoris"
+            }
+          },
+          {
+            "name": "catalog",
+            "options": {
+              "title": "Thèmes",
+              "tooltip": "Thématiques du SITG",
+              "favorites": true
+            }
+          },
+          {
+            "name": "content",
+            "options": {
+              "title": "Living Atlas",
+              "tooltip": "Données du Living Altas Esri",
+              "types": "Feature Service,Map Service,Image Service,KML,WMS,WFS,WMTS,Vector Tile Service,Web Map,Scene Service,Web Scene",
+              "categories": null,
+              "filterConfig": {
+                "tags": false,
+                "groups": true,
+                "favorites": true
+              },
+              "showPortalContent": false,
+              "showLivingAtlasContent": true
+            }
+          },
+          {
+            "name": "contentBrowser",
+            "options": {
+              "title": "Données",
+              "tooltip": "Données du SITG",
+              "groups": "1ef93761c6464ffa91e4c45a3c7f7d25,0a376985c66b4fb08cdba89229e11795",
+              "types": "Feature Service",
+              "filterConfig": {
+                "tags": false,
+                "groups": true,
+                "favorites": true
+              }
+            }
+          },
+          {
+            "name": "import",
+            "options": {
+              "tooltip": "Import de fichiers externes"
+            }
+          }
+        ]
       }
     }
   },
@@ -227,64 +286,6 @@
     },
     "search": {
       "class": "_maps/widgets/search/Search"
-    },
-    "data": {
-      "class": "_maps/widgets/data/DataPane",
-      "options": {
-        "tabs": [
-          {
-            "name": "catalog",
-            "options": {
-              "title": "Thèmes",
-              "tooltip": "Thématiques du SITG",
-              "favorites": true
-            }
-          },
-          {
-            "name": "contentBrowser",
-            "options": {
-              "title": "Données",
-              "tooltip": "Données du SITG",
-              "groups": "1ef93761c6464ffa91e4c45a3c7f7d25,0a376985c66b4fb08cdba89229e11795",
-              "types": "Feature Service",
-              "filterConfig": {
-                "tags": false,
-                "groups": true,
-                "favorites": true
-              }
-            }
-          },
-          {
-            "name": "content",
-            "options": {
-              "title": "Living Atlas",
-              "tooltip": "Données du Living Altas Esri",
-              "types": "Feature Service,Map Service,Image Service,KML,WMS,WFS,WMTS,Vector Tile Service,Web Map,Scene Service,Web Scene",
-              "categories": null,
-              "filterConfig": {
-                "tags": false,
-                "groups": true,
-                "favorites": true
-              },
-              "showPortalContent": false,
-              "showLivingAtlasContent": true
-            }
-          },
-          {
-            "name": "favorites",
-            "options": {
-              "title": "Favoris",
-              "tooltip": "Données ajoutées en favoris"
-            }
-          },
-          {
-            "name": "import",
-            "options": {
-              "tooltip": "Import de fichiers externes"
-            }
-          }
-        ]
-      }
     },
     "save": {
       "class": "_maps/widgets/save/Save",
