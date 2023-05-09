@@ -8,8 +8,8 @@ dependencies:
     specifier: 1.0.7
     version: 1.0.7
   maps:
-    specifier: link:D:/Develop/_maps_esm
-    version: link:D:/Develop/_maps_esm
+    specifier: link:../_maps
+    version: link:../_maps
 
 devDependencies:
   '@rollup/plugin-node-resolve':
