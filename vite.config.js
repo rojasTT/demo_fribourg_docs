@@ -17,7 +17,7 @@ export default defineConfig({
         },
         fs: {
             allow: [ // il faut autoriser vite à chercher des fichiers dans un autre répertoire. Nécessaire pour que les fonts esri (appelées par le css esri dans _maps) se chargent
-                '../_maps_esm',
+                '../_maps',
                 '..'
             ]
         }

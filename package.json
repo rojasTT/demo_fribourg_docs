@@ -11,29 +11,26 @@
     "dev:vite": "vite",
     "dev:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./esri_assets",
     "dev:copy_calcite": "mkdirp ./calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./calcite/assets",
-    "dev:workers": "rollup --config rollup.worker.config.js --watch",
+    "dev:workers": "ncp ./node_modules/maps/workers ./workers",
     "build": "vite build && run-s build:*",
-    "build:copy_sjs": "ncp ./node_modules/systemjs/dist/s.min.js ./dist/assets/s.min.js",
+    "build:copy_sjs": "ncp ./node_modules/systemjs/dist/s.min.js ./dist/assets/s.min.js && ncp ./node_modules/systemjs/dist/s.min.js.map ./dist/assets/s.min.js.map",
     "build:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./dist/esri_assets",
-    "build:copy_calcite": "mkdirp ./dist/calcite &&  ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets",
-    "build:workers": "rollup --config rollup.worker.config.js"
+    "build:copy_calcite": "mkdirp ./dist/calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets",
+    "build:workers": "ncp ./node_modules/maps/workers ./dist/workers"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.0.2",
-    "@rollup/plugin-terser": "^0.4.1",
     "eslint": "^8.40.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "mkdirp": "^3.0.1",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "rollup": "^3.21.5",
     "systemjs": "^6.14.1",
     "vite": "^4.3.5"
   },
   "dependencies": {
-    "@arcgis/core": "~4.26.5",
-    "@esri/calcite-components": "1.0.7",
+    "@arcgis/core": "~4.27.0",
+    "@esri/calcite-components": "1.4.2",
     "maps": "link:../_maps"
   }
 }

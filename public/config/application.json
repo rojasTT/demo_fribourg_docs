@@ -6,15 +6,15 @@
     }
   ],
   "template": "default",
-  "portalUrl": "https://topomat.maps.arcgis.com/",
-  "oauthappid": "h7nf2TSctlBeudim",
-  "oauthappid_sitg": "9LModLKY8N60ELHj",
-  "oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
-  "oauthappid_dev": "h7nf2TSctlBeudim",
+  "portalUrl": "https://demo.topomat.ch/arcgis2",
+  "oauthappid": "ST5SOSv3idY7O4ip",
+  "_oauthappid_sitg": "9LModLKY8N60ELHj",
+  "_oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
+  "oauthappid_dev": "ST5SOSv3idY7O4ip",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
   "proxyUrl": "proxy.php",
-  "title": "Carte interactive",
+  "title": "Carte interactive - test EHL Attrs",
   "subtitle": "",
   "hastitlebar": true,
   "haslogo": true,
@@ -29,9 +29,9 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "0f5bdea149a94d8e9a94e3a42eb3ea27",
-  "webscene": "028b26c88f3940ef981fced177abfb8a",
-  "basemaps": [
+  "webmap": "af5c6ae381f04ac0a3525042c1d7c773",
+  "_webscene": "4a7ed14add324a17b21add02a017b419",
+  "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
     "e2f243f934144a9aa33064c8f63dade4",
     "1bbf905b5d9e42158b79aa375a257c2f",
@@ -41,7 +41,7 @@
     "182a2ae00c1e430b9336e3a794ea5455",
     "01945df33c46478793e20c47ef0b166d"
   ],
-  "displayWkid": "2056",
+  "displayWkid": "4326",
   "wkids": "21781,2056,4326,102100",
   "popupConfig": {
     "enabled": true,
@@ -70,11 +70,11 @@
   "scalebar": "bottom-left",
   "compass": "top-left",
   "track": "top-left",
-  "basemapGallery": "expand:top-left",
+  "_basemapGallery": "expand:top-left",
   "daylight": "expand:top-left",
   "dSwitch": "top-right",
-  "basemapToggle": "bottom-right",
-  "nextbasemap": "f1aa737df8cb43a18f316dc38c673a6b",
+  "_basemapToggle": "bottom-right",
+  "nextbasemap": "d0135822507947b2a3809af36f2d91e6",
   "search": "titlebar",
   "daynight": "titlebar",
   "_localeSelector": "titlebar",
@@ -91,7 +91,7 @@
   "zoomToFilter": false,
   "includedEffect": "drop-shadow(3px, 3px, 4px)",
   "excludedEffect": "grayscale(100%) opacity(30%) sepia(20%) brightness(150%)",
-  "helperServices": {
+  "_helperServices": {
     "elevationLayers": [
       {
         "title": "ground",
@@ -124,7 +124,7 @@
     "zoomLevel": {
       "class": "_maps/widgets/tools/Zoom"
     },
-    "test": {
+    "_test": {
       "class": "app/widgets/Test"
     },
     "daynight": {
@@ -155,6 +155,12 @@
       "class": "_maps/widgets/tools/Compare",
       "options": {
         "configUrl": "config/widgets/compare/config.json"
+      }
+    },
+    "streetView": {
+      "class": "_maps/widgets/tools/StreetView",
+      "options": {
+        "key": "AIzaSyDtYw2kr8lVQVlE7ABG8lBgZJ6auda9DPs"
       }
     },
     "basemapGallery": {
@@ -275,6 +281,9 @@
           }
         ]
       }
+    },
+    "_featureForm": {
+      "class": "_maps/widgets/tools/FeatureForm"
     }
   }
 }
