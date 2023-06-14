@@ -6,11 +6,11 @@
     }
   ],
   "template": "default",
-  "portalUrl": "https://demo.topomat.ch/arcgis2",
-  "oauthappid": "ST5SOSv3idY7O4ip",
+  "portalUrl": "https://topomat.maps.arcgis.com",
+  "oauthappid": "h7nf2TSctlBeudim",
   "_oauthappid_sitg": "9LModLKY8N60ELHj",
   "_oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
-  "oauthappid_dev": "ST5SOSv3idY7O4ip",
+  "oauthappid_dev": "h7nf2TSctlBeudim",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
   "proxyUrl": "proxy.php",
@@ -29,8 +29,8 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "af5c6ae381f04ac0a3525042c1d7c773",
-  "_webscene": "4a7ed14add324a17b21add02a017b419",
+  "webmap": "59d2cbd667db4b1aa278360ff3869992",
+  "_webscene": "15f3813e2aa1412c8dee10792e583c54",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
     "e2f243f934144a9aa33064c8f63dade4",
@@ -41,8 +41,8 @@
     "182a2ae00c1e430b9336e3a794ea5455",
     "01945df33c46478793e20c47ef0b166d"
   ],
-  "displayWkid": "4326",
-  "wkids": "21781,2056,4326,102100",
+  "displayWkid": "2056",
+  "wkids": "2056,4326,102100",
   "popupConfig": {
     "enabled": true,
     "docking": "bottom-center",
@@ -196,6 +196,12 @@
     "locate": {
       "class": "_maps/widgets/tools/Locate"
     },
+    "toto": {
+      "class": "_maps/widgets/ui/WebMapList",
+      "options": {
+        "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d"]
+      }
+    },
     "track": {
       "class": "_maps/widgets/tools/Track"
     },
@@ -215,7 +221,7 @@
     "save": {
       "class": "_maps/widgets/save/Save",
       "options": {
-        "saveServiceUrl": "https://www.topomat.ch/api/_maps/services/",
+        "saveServiceUrl": "https://demo.topomat.ch/maps_services_topomat/",
         "saveFavoritesOnServer": true,
         "shareMap": true,
         "exportMap": true,
@@ -224,7 +230,7 @@
         "defaultMap": true
       }
     },
-    "data": {
+    "_data": {
       "class": "_maps/widgets/data/DataPane",
       "options": {
         "tabs": [
