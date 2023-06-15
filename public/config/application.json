@@ -30,7 +30,7 @@
   "css": "",
   "noscroll": false,
   "webmap": "59d2cbd667db4b1aa278360ff3869992",
-  "_webscene": "15f3813e2aa1412c8dee10792e583c54",
+  "webscene": "15f3813e2aa1412c8dee10792e583c54",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
     "e2f243f934144a9aa33064c8f63dade4",
@@ -197,9 +197,9 @@
       "class": "_maps/widgets/tools/Locate"
     },
     "toto": {
-      "class": "_maps/widgets/ui/WebMapList",
+      "class": "_maps/widgets/ui/mapGallery",
       "options": {
-        "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d"]
+        "groups": []
       }
     },
     "track": {
@@ -230,7 +230,7 @@
         "defaultMap": true
       }
     },
-    "_data": {
+    "data": {
       "class": "_maps/widgets/data/DataPane",
       "options": {
         "tabs": [
