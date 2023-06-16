@@ -19,7 +19,7 @@
     "build:workers": "ncp ./node_modules/maps/workers ./dist/workers"
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
+    "eslint": "^8.42.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "mkdirp": "^3.0.1",
@@ -29,8 +29,8 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@arcgis/core": "~4.27.0",
+    "@arcgis/core": "~4.27.1",
     "@esri/calcite-components": "1.4.2",
-    "maps": "link:../_maps"
+    "maps": "link:..\\_maps"
   }
 }

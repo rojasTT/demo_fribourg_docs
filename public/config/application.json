@@ -29,7 +29,7 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "59d2cbd667db4b1aa278360ff3869992",
+  "webmap": "60ac89a1cc1b40cba179cc5fbc7a7481",
   "webscene": "15f3813e2aa1412c8dee10792e583c54",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
@@ -110,7 +110,7 @@
       {
         "class": "_maps/widgets/search/sources/QuickerSearch",
         "url": "https://demo.topomat.ch/typesense/multi_search?x-typesense-api-key=xyz",
-        "collection": "data3",
+        "collection": "Geneve",
         "placeholder": "...",
         "name": "QuickerSearch local",
         "zoomScale": 2000,
@@ -196,10 +196,10 @@
     "locate": {
       "class": "_maps/widgets/tools/Locate"
     },
-    "toto": {
-      "class": "_maps/widgets/ui/mapGallery",
+    "mapGallery": {
+      "class": "_maps/widgets/ui/MapGallery",
       "options": {
-        "groups": []
+        "groups": ["60651367f75342da9a30a18a06b25a8b","d57efdcb065148a3addf078f8538544d","6036a9630e0748ab9ecf9a9bd5afda2d"]
       }
     },
     "track": {
