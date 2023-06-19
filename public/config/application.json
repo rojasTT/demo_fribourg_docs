@@ -197,7 +197,7 @@
       "class": "_maps/widgets/tools/Locate"
     },
     "mapGallery": {
-      "class": "_maps/widgets/ui/MapGallery",
+      "class": "_maps/widgets/data/MapGallery",
       "options": {
         "groups": ["60651367f75342da9a30a18a06b25a8b","d57efdcb065148a3addf078f8538544d","6036a9630e0748ab9ecf9a9bd5afda2d"]
       }
