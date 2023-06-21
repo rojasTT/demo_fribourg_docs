@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.4.2
     version: 1.4.2
   maps:
-    specifier: link:..\_maps
-    version: link:../_maps
+    specifier: link:..\_maps_dev
+    version: link:../_maps_dev
 
 devDependencies:
   eslint:

@@ -31,6 +31,6 @@
   "dependencies": {
     "@arcgis/core": "~4.27.1",
     "@esri/calcite-components": "1.4.2",
-    "maps": "link:..\\_maps"
+    "maps": "link:..\\_maps_dev"
   }
 }

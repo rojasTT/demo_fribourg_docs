@@ -70,7 +70,7 @@
   "scalebar": "bottom-left",
   "compass": "top-left",
   "track": "top-left",
-  "_basemapGallery": "expand:top-left",
+  "basemapGallery": "expand:top-left",
   "daylight": "expand:top-left",
   "dSwitch": "top-right",
   "_basemapToggle": "bottom-right",
@@ -181,8 +181,43 @@
     "measurement": {
       "class": "_maps/widgets/tools/Measurement"
     },
-    "layerList": {
+    "_layerList": {
       "class": "_maps/widgets/data/LayerList"
+    },
+    "layerManager": {
+      "class": "_maps/widgets/data/LayerManager",
+      "options": {
+        "dataSources": {
+          "title": {
+            "en": "Other data resources",
+            "fr": "Autres sources de données",
+            "de": "Andere Datenquellen"
+          },
+          "tooltip": {
+            "en": "Select data from various resources",
+            "fr": "Sélectionner des données à partir de différentes sources",
+            "de": "Daten aus verschiedenen Quellen auswählen"
+          },
+          "widgets": [
+          ]
+        },
+        "mapGallery": {
+          "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d", "6036a9630e0748ab9ecf9a9bd5afda2d"],
+          "types": ["Web Map", "Web Scene"],
+          "byGroup": true,
+          "title": {
+            "en": "Themes",
+            "fr": "Thèmes",
+            "de": "Themen"
+          },
+          "tooltip": {
+            "en": "Select a predefined theme",
+            "fr": "Sélectionnez un thème métier",
+            "de": "Wählen Sie ein Fachthema aus"
+          }
+        },
+        "hasRemoveTool": "false"
+      }
     },
     "legend": {
       "class": "_maps/widgets/legend/Legend"
@@ -199,7 +234,9 @@
     "mapGallery": {
       "class": "_maps/widgets/data/MapGallery",
       "options": {
-        "groups": ["60651367f75342da9a30a18a06b25a8b","d57efdcb065148a3addf078f8538544d","6036a9630e0748ab9ecf9a9bd5afda2d"]
+        "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d", "6036a9630e0748ab9ecf9a9bd5afda2d"],
+        "byGroup": true,
+        "types": ["Web Map", "Web Scene"]
       }
     },
     "track": {
