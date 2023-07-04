@@ -1,4 +1,5 @@
 {
+  "appName": "test_maps_esm",
   "appTemplates": [
     {
       "name": "default",
@@ -29,8 +30,8 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "60ac89a1cc1b40cba179cc5fbc7a7481",
-  "webscene": "15f3813e2aa1412c8dee10792e583c54",
+  "webmap": "b5313c99535a4c5fae9f53fcef08ae62",
+  "webscene": "4a7ed14add324a17b21add02a017b419",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
     "e2f243f934144a9aa33064c8f63dade4",
@@ -42,7 +43,7 @@
     "01945df33c46478793e20c47ef0b166d"
   ],
   "displayWkid": "2056",
-  "wkids": "2056,4326,102100",
+  "wkids": "2056,4326,102100,21781",
   "popupConfig": {
     "enabled": true,
     "docking": "bottom-center",
@@ -77,9 +78,11 @@
   "nextbasemap": "d0135822507947b2a3809af36f2d91e6",
   "search": "titlebar",
   "daynight": "titlebar",
-  "_localeSelector": "titlebar",
+  "localeSelector": "titlebar",
   "geometryfilter": true,
   "task": "fixed:left",
+  "scaleSelector": "expand:top-left",
+  "coordinateConversion": "expanded:top-right",
   "exportConfig": {
     "maxNumRecords": null,
     "toCSV": true,
@@ -91,7 +94,7 @@
   "zoomToFilter": false,
   "includedEffect": "drop-shadow(3px, 3px, 4px)",
   "excludedEffect": "grayscale(100%) opacity(30%) sepia(20%) brightness(150%)",
-  "_helperServices": {
+  "helperServices": {
     "elevationLayers": [
       {
         "title": "ground",
@@ -105,20 +108,7 @@
     },
     "printTask": {
       "url": null
-    },
-    "searchSources": [
-      {
-        "class": "_maps/widgets/search/sources/QuickerSearch",
-        "url": "https://demo.topomat.ch/typesense/multi_search?x-typesense-api-key=xyz",
-        "collection": "Geneve",
-        "placeholder": "...",
-        "name": "QuickerSearch local",
-        "zoomScale": 2000,
-        "wkid": 2056,
-        "maxResultsPerCategory": 5,
-        "maxResultsOnSingleCategory": 30
-      }
-    ]
+    }
   },
   "widgets": {
     "zoomLevel": {
@@ -234,7 +224,32 @@
     "mapGallery": {
       "class": "_maps/widgets/data/MapGallery",
       "options": {
-        "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d", "6036a9630e0748ab9ecf9a9bd5afda2d"],
+        "groups": [
+          {
+            "id":"6036a9630e0748ab9ecf9a9bd5afda2d",
+            "alias": {
+              "en": "alias:en-3",
+              "fr": "alias:fr-3",
+              "de": "alias:de-3"
+            }
+          },
+          {
+            "id":"d57efdcb065148a3addf078f8538544d",
+            "alias": {
+              "en": "alias:en-2",
+              "fr": "alias:fr-2",
+              "de": "alias:de-2"
+            }
+          },
+          {
+            "id":"60651367f75342da9a30a18a06b25a8b",
+            "alias": {
+              "en": "alias:en-1",
+              "fr": "alias:fr-1",
+              "de": "alias:de-1"
+            }
+          }
+        ],
         "byGroup": true,
         "types": ["Web Map", "Web Scene"]
       }
@@ -253,7 +268,16 @@
       }
     },
     "search": {
-      "class": "_maps/widgets/search/Search"
+      "class": "_maps/widgets/search/Search",
+      "options": {
+        "searchSources": [
+          {
+            "class": "_maps/widgets/search/sources/Coordinates",
+            "placeholder": "Coordinates ...",
+            "name": "Coordinates"
+          }
+        ]
+      }
     },
     "save": {
       "class": "_maps/widgets/save/Save",
@@ -325,8 +349,20 @@
         ]
       }
     },
-    "_featureForm": {
+    "featureForm": {
       "class": "_maps/widgets/tools/FeatureForm"
+    },
+    "scaleSelector": {
+      "class": "_maps/widgets/tools/ScaleSelector",
+      "options": {
+        "scales": [
+          {"scale": 1000, "label":1000},
+          {"scale": 2560, "label":2000},
+          {"scale": 3890, "label":3000},
+          {"scale": 4440, "label":"10'000"},
+          {"scale": 5590, "label":5500}
+        ]
+      }
     }
   }
 }
