@@ -15,8 +15,8 @@
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
   "proxyUrl": "proxy.php",
-  "title": "Carte interactive - test EHL Attrs",
-  "subtitle": "",
+  "title": "_maps_dev app",
+  "subtitle": "subtitle",
   "hastitlebar": true,
   "haslogo": true,
   "altlogourl": "https://www.topomat.ch/_maps/assets/logos/logo_sitg.png",
@@ -30,7 +30,7 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "b5313c99535a4c5fae9f53fcef08ae62",
+  "webmap": "7d2b189bd4cc498b890e6fdb693b004b",
   "webscene": "4a7ed14add324a17b21add02a017b419",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
@@ -192,7 +192,32 @@
           ]
         },
         "mapGallery": {
-          "groups": ["60651367f75342da9a30a18a06b25a8b", "d57efdcb065148a3addf078f8538544d", "6036a9630e0748ab9ecf9a9bd5afda2d"],
+          "groups":[
+            {
+              "id":"6036a9630e0748ab9ecf9a9bd5afda2d",
+              "alias": {
+                "en": "alias:en-3",
+                "fr": "alias:fr-3",
+                "de": "alias:de-3"
+              }
+            },
+            {
+              "id":"d57efdcb065148a3addf078f8538544d",
+              "alias": {
+                "en": "alias:en-2",
+                "fr": "alias:fr-2",
+                "de": "alias:de-2"
+              }
+            },
+            {
+              "id":"60651367f75342da9a30a18a06b25a8b",
+              "alias": {
+                "en": "alias:en-1",
+                "fr": "alias:fr-1",
+                "de": "alias:de-1"
+              }
+            }
+          ],
           "types": ["Web Map", "Web Scene"],
           "byGroup": true,
           "title": {
@@ -275,6 +300,11 @@
             "class": "_maps/widgets/search/sources/Coordinates",
             "placeholder": "Coordinates ...",
             "name": "Coordinates"
+          },          
+          {
+            "class": "_maps/widgets/search/sources/QuickSearch",
+            "placeholder": "Quick search ...",
+            "name": "QuickSearch"
           }
         ]
       }
