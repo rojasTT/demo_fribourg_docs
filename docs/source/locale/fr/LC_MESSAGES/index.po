@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Topomat Technologies
+# This file is distributed under the same license as the _maps Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _maps Template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/index.rst:2
+msgid "Landing page template"
+msgstr ""
+
+#: ../../source/index.rst:4
+msgid ""
+"Description of the application purpose goes here... We have a great "
+"documentations where you can [finally](first.md#final). Or even "
+"[something](first.md#target-test)."
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "there is [also](second.md#bob-section)"
+msgstr ""
+

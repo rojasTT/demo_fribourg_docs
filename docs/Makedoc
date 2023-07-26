@@ -1,0 +1,46 @@
+#!/bin/bash
+
+PYTHONPATH="/usr/bin/python3"
+
+if [ -d .venv ]; then
+    echo ".venv exists ..."
+    
+    echo "Activating environnement ..."
+    source ./.venv/Scripts/activate
+    
+    echo "Checking Python version ..."
+    python3 "$(dirname "$0")/check_python_version.py"
+    if [ $? -ne 0 ]; then
+        echo "Python version doesn't meet requirements. Need 3.6 or higher"
+        exit 1
+    fi
+    
+    echo "Installing requirements.txt ..."
+    pip install -r requirements.txt
+
+    echo "Building html doc ..."
+    Makefile html
+    Makefile pdf
+
+else
+    echo "Creating venv named .venv ..."
+    "$PYTHONPATH" -m venv .venv
+    
+    echo "Activating environnemnt ..."
+    source ./.venv/Scripts/activate
+
+    echo "Checking Python version ..."
+    python3 "$(dirname "$0")/check_python_version.py"
+    if [ $? -ne 0 ]; then
+        echo "Python version doesn't meet requirements. Need 3.6 or higher"
+        exit 1
+    fi
+
+    echo "Installing requirements.txt ..."
+    pip install -r requirements.txt
+
+    echo "Building html doc ..."
+    Makefile html
+    Makefile pdf
+
+fi

@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Topomat Technologies
+# This file is distributed under the same license as the _maps Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _maps Template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-17 12:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/first.md:1
+msgid "Subsection (1)"
+msgstr "Subsectionnen"
+
+#: ../../source/first.md:3
+msgid "*this is an image*"
+msgstr "*dise ist ein Imagen*"
+
+#: ../../source/first.md:6
+msgid "Carte, fonds de plan et outils de navigation"
+msgstr "Mappend, planned dem fonden und navigationenDermental"
+
+#: ../../source/first.md:7
+msgid "Gestionnaire de données: catalogue, affichage et symbologie"
+msgstr "DattenGenstionieren"
+
+#: ../../source/first.md:8
+msgid "Changement de langue, aide et contact"
+msgstr "Sprachen changer, hilfen und kontacten"
+
+#: ../../source/first.md:9
+msgid "Recherche et géolocalisation [link weburl](http://dev.nodeca.com)"
+msgstr "Suchen ung geolocatiolizationen"
+
+#: ../../source/first.md:10
+msgid "Fonctionnalités avancées"
+msgstr "Advanced Functions"
+
+#: ../../source/first.md:11
+msgid "Panneau des résultats de la sélection"
+msgstr "Resultät pano"
+
+#: ../../source/first.md:12
+msgid "Vues alternatives [link](second.md#test-section)"
+msgstr "Altenvatif vau"
+
+#: ../../source/first.md:14
+msgid "!!! todo     Find a way to [link](index.rst) between mds"
+msgstr "afsdasda"
+
+#: ../../source/first.md:18
+msgid "Another section in here yo!"
+msgstr "Ein anderen sectionene hier yo!"
+
+#: ../../source/first.md:19
+msgid "dfa adf afafdafd afaafda"
+msgstr "adsfa adasda sdad "
+
+#: ../../source/first.md:25
+msgid "Final countdown"
+msgstr "Finale count bes"
+
+#: ../../source/first.md:27
+msgid "toto was here yo!"
+msgstr "Toto vas hier yo!"
+

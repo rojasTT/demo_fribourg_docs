@@ -79,6 +79,7 @@
   "search": "titlebar",
   "daynight": "titlebar",
   "localeSelector": "titlebar",
+  "helpButton": "titlebar",
   "geometryfilter": true,
   "task": "fixed:left",
   "scaleSelector": "expand:top-left",
@@ -122,6 +123,9 @@
       "options": {
         "night": true
       }
+    },
+    "helpButton": {
+      "class": "_maps/widgets/ui/HelpButton"
     },
     "fullScreen": {
       "class": "_maps/widgets/tools/Fullscreen"

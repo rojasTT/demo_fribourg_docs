@@ -1,0 +1,6 @@
+sphinx
+sphinx-book-theme
+sphinx-intl
+rst2pdf
+docxbuilder
+myst-parser
