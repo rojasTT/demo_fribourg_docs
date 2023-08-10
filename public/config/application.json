@@ -7,13 +7,14 @@
     }
   ],
   "template": "default",
-  "portalUrl": "https://topomat.maps.arcgis.com",
-  "oauthappid": "h7nf2TSctlBeudim",
+  "portalUrl": "https://demo.topomat.ch/arcgis2",
+  "oauthappid": "ST5SOSv3idY7O4ip",
   "_oauthappid_sitg": "9LModLKY8N60ELHj",
   "_oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
   "oauthappid_dev": "h7nf2TSctlBeudim",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
+  "loginAtStartup": true,
   "proxyUrl": "proxy.php",
   "title": "_maps_dev app",
   "subtitle": "subtitle",
@@ -30,8 +31,8 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "7d2b189bd4cc498b890e6fdb693b004b",
-  "webscene": "4a7ed14add324a17b21add02a017b419",
+  "webmap": "10504bb2e49b4effbbd8ac79c825445c",
+  "_webscene": "4a7ed14add324a17b21add02a017b419",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
     "e2f243f934144a9aa33064c8f63dade4",
@@ -316,7 +317,7 @@
     "save": {
       "class": "_maps/widgets/save/Save",
       "options": {
-        "saveServiceUrl": "https://demo.topomat.ch/maps_services_topomat/",
+        "saveServiceUrl": "https://demo.topomat.ch/maps_services_arcgis2/",
         "saveFavoritesOnServer": true,
         "shareMap": true,
         "exportMap": true,
@@ -385,6 +386,12 @@
     },
     "featureForm": {
       "class": "_maps/widgets/tools/FeatureForm"
+    },
+    "uniqueValueEditor": {
+      "class": "_maps/widgets/tools/UniqueValueEditor",
+      "options": {
+        "layerName": "Events_local"
+      }
     },
     "scaleSelector": {
       "class": "_maps/widgets/tools/ScaleSelector",

@@ -4,3 +4,4 @@ calcite
 esri_assets
 workers
 public/docs
+docs/.venv

@@ -19,7 +19,8 @@
     "build:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./dist/esri_assets",
     "build:copy_calcite": "mkdirp ./dist/calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets",
     "build:workers": "ncp ./node_modules/maps/workers ./dist/workers",
-    "doc": "node ./docs/run_batch.js"
+    "doc": "node ./docs/run_batch.js",
+    "devdoc": "node ./docs/run_batch.js dev"
   },
   "devDependencies": {
     "eslint": "^8.42.0",

@@ -2,3 +2,42 @@
 html {
     font-family:Tahoma !important;
 }
+
+.customHeader {
+    margin: 20px 20px;
+    display: inline-block;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.customHeader h1 {
+    color: red;
+    text-shadow: blue 2px 2px;
+}
+
+.customHeader h1:hover {
+    color: violet;
+}
+
+.customHeader h2 {
+    color: black;
+    margin-top: 1px !important;
+}
+
+.customHeader h2:hover {
+    color: green;
+}
+
+.customHeader p {
+    color: brown;
+}
+
+.customHeader button {
+    color: pink;
+    background-color: black;
+    border-radius: 50%;
+}
+.customHeader button:hover {
+    color: red;
+    background-color: blue;
+}

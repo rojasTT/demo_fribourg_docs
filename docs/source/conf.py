@@ -17,7 +17,7 @@ release = '0.1'
 language = 'en'
 locale_dirs = ['locale/']
 gettext_compact = True
-templates_path = []
+templates_path = ['_templates']
 extensions = [
     'myst_parser',
     'rst2pdf.pdfbuilder',

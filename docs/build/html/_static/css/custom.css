@@ -2,3 +2,34 @@
 html {
     font-family:Tahoma !important;
 }
+
+.customHeader {
+    display: inline-block;
+    width: 100%;
+    background-color: cadetblue;
+}
+.customHeader h1 {
+    color: red !important;
+    text-shadow: blue 2px 2px !important;
+}
+.customHeader h2 {
+    color: black !important;
+}
+.customHeader h2:hover {
+    color: green !important;
+}
+
+.customHeader h1:hover {
+    color: violet !important;
+}
+
+.customHeader p {
+    color: brown !important;
+}
+
+.customHeader button {
+    color: pink !important;
+}
+.customHeader button:hover {
+    color: red !important;
+}
