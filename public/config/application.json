@@ -31,7 +31,7 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "10504bb2e49b4effbbd8ac79c825445c",
+  "webmap": "8366a8571da64ec19ac350026cfcc40a",
   "_webscene": "4a7ed14add324a17b21add02a017b419",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
@@ -390,7 +390,7 @@
     "uniqueValueEditor": {
       "class": "_maps/widgets/tools/UniqueValueEditor",
       "options": {
-        "layerName": "Events_local"
+        "layerName": "Events"
       }
     },
     "scaleSelector": {
