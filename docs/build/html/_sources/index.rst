@@ -1,9 +1,9 @@
-Landing page template
+Demo documentation - Fribourg
 =====================
 
-Description of the application purpose goes here...
-
 .. toctree::
-    first.md
-    second.md
+    acceuil.md
+    orga.md
+    searchbar.md
+    faq.md
     test.md

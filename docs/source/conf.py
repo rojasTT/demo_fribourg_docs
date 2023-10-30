@@ -14,7 +14,7 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-language = 'en'
+language = 'fr'
 locale_dirs = ['locale/']
 gettext_compact = True
 templates_path = ['_templates']
@@ -47,15 +47,16 @@ html_theme_options = {
     #     ]
 }
 # Client html control options:
-html_name = "Documentation _maps"
+html_name = "Documentation demo"
 html_logo = "_static/images/name-logo.png"
-html_favicon = "_static/images/logo-mini.png"
+html_favicon = "_static/images/favicon.ico"
 
 # -- PDF Options for output --------------------------------------------------
 
-pdf_documents = [('index', '_maps_docu', 'Template Doc _maps', 'Topomat Technologies')]
+pdf_documents = [('index', 'demo_fribourg', 'Demo Fribourg', 'Topomat Technologies')]
 pdf_stylesheets = ['a4']
 pdf_use_coverpage = False
+pdf_break_level = 1
 
 # -- Docx Options for output -------------------------------------------------
 

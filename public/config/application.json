@@ -1,5 +1,5 @@
 {
-  "appName": "test_maps_esm",
+  "appName": "demo_fribourg_docs",
   "appTemplates": [
     {
       "name": "default",
@@ -7,22 +7,23 @@
     }
   ],
   "template": "default",
-  "portalUrl": "https://demo.topomat.ch/arcgis2",
-  "oauthappid": "ST5SOSv3idY7O4ip",
+  "portalUrl": "https://topomat.maps.arcgis.com",
+  "oauthappid": "zjkYLHFSCPnbvjJ1",
   "_oauthappid_sitg": "9LModLKY8N60ELHj",
   "_oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
   "oauthappid_dev": "h7nf2TSctlBeudim",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
-  "loginAtStartup": true,
+  "loginAtStartup": false,
   "proxyUrl": "proxy.php",
-  "title": "_maps_dev app",
-  "subtitle": "subtitle",
+  "title": "Documentation Fribourg ",
+  "subtitle": "Demo",
   "hastitlebar": true,
   "haslogo": true,
-  "altlogourl": "https://www.topomat.ch/_maps/assets/logos/logo_sitg.png",
-  "altlogolink": "https://ge.ch/sitg/",
+  "altlogourl": "https://www.topomat.ch/demo/fribourg/assets/logo.png",
+  "altlogolink": "https://map.geo.fr.ch/",
   "menustyledrawer": false,
+  "locale": "fr",
   "layout": "top-small",
   "panelslayout": "right",
   "bgcolor": "#474749",
@@ -31,7 +32,7 @@
   "opacity": "1",
   "css": "",
   "noscroll": false,
-  "webmap": "8366a8571da64ec19ac350026cfcc40a",
+  "webmap": "07df2added234f5ea1bed58655e6299c",
   "_webscene": "4a7ed14add324a17b21add02a017b419",
   "_basemaps": [
     "614c7804c27d4eb8ba070c73186ac295",
@@ -122,11 +123,15 @@
     "daynight": {
       "class": "_maps/widgets/ui/DayNight",
       "options": {
-        "night": true
+        "night": false
       }
     },
     "helpButton": {
-      "class": "_maps/widgets/ui/HelpButton"
+      "class": "_maps/widgets/ui/HelpButton",
+      "options": {
+        "path": "docs/html/acceuil.html"
+      }
+
     },
     "fullScreen": {
       "class": "_maps/widgets/tools/Fullscreen"
@@ -291,7 +296,6 @@
       "class": "_maps/widgets/intl/LocaleSelector",
       "options": {
         "locales": [
-          "en",
           "fr",
           "de"
         ]

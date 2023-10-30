@@ -16,7 +16,7 @@ You will like those projects!
 ### h3 Heading
 #### h4 Heading
 
-balb bla blalblllaalba
+123 123 123
 
 ##### h5 Heading
 ###### h6 Heading
@@ -25,9 +25,9 @@ text ting
 
 ## Horizontal Rules
 
-fsfd sd fsdg sdfg s ssgf 
+Lorepslum nj
 
-## bob
+## Hello
 ok
 ***
 
@@ -139,17 +139,6 @@ Right aligned columns
 | ext    | extension to be used for dest files. |
 
 
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-[link to section](second.md#bob-section)
-
-[link to other section](first.md)
 ## Images
 
 <!-- ![Minion](https://octodex.github.com/images/minion.png)
