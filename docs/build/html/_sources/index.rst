@@ -6,4 +6,3 @@ Demo documentation - Fribourg
     orga.md
     searchbar.md
     faq.md
-    test.md

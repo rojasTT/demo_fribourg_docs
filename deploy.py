@@ -31,7 +31,7 @@ print('update application.json...')
 with open('./dist/config/application.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 with open('./dist/config/application.json', 'w', encoding='utf-8') as file:
-    data['oauthappid'] = data['oauthappid_topomat']
+    data['oauthappid'] = data['oauthappid_tt']
     json.dump(data, file, ensure_ascii=False)
 
 print('zip...')

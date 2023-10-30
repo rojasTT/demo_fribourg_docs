@@ -10,7 +10,7 @@
   "portalUrl": "https://topomat.maps.arcgis.com",
   "oauthappid": "zjkYLHFSCPnbvjJ1",
   "_oauthappid_sitg": "9LModLKY8N60ELHj",
-  "_oauthappid_topomat": "zjkYLHFSCPnbvjJ1",
+  "oauthappid_tt": "dKEJfzaZqi6HvNz0",
   "oauthappid_dev": "h7nf2TSctlBeudim",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
