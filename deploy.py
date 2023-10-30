@@ -31,7 +31,7 @@ print('update application.json...')
 with open('./dist/config/application.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 with open('./dist/config/application.json', 'w', encoding='utf-8') as file:
-    data['oauthappid'] = data['oauthappid_tt']
+    # data['oauthappid'] = data['oauthappid_tt']
     json.dump(data, file, ensure_ascii=False)
 
 print('zip...')
@@ -48,7 +48,7 @@ with open(zipFile, 'rb') as file:
 ftp.quit()
 
 print('unzip...')
-with urllib.request.urlopen(f'https://www.topomat.ch/demo/{remoteFolder}/unzip.php', context=ssl.SSLContext()) as response:
+with urllib.request.urlopen(f'https://www.topomat.ch/demo/{remoteFolder}/unzip.php') as response:
     resp = response.read()
 print(resp)
 
