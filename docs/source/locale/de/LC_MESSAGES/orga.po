@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Topomat Technologies
+# This file is distributed under the same license as the _maps Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _maps Template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 10:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../source/orga.md:1
+msgid "Organisation du portail cartographique"
+msgstr "Aufbau der Online-Karten"
+
+
+#: ../../source/orga.md:5
+msgid "Carte, fonds de plan et outils de navigation"
+msgstr "Karte, Grundkarte und Navigationswerkzeuge"
+
+#: ../../source/orga.md:6
+msgid "Gestionnaire de données: catalogue, affichage et symbologie"
+msgstr "Datenverwaltung: Katalog, Anzeige und Symbolik"
+
+#: ../../source/orga.md:7
+msgid "Changement de langue, aide et contact"
+msgstr "Änderung der Sprache, Hilfe und Kontakt"
+
+#: ../../source/orga.md:8
+msgid "Recherche et géolocalisation"
+msgstr "Suche und Geolokalisierung"
+
+#: ../../source/orga.md:9
+msgid "Fonctionnalités avancées"
+msgstr "Funktionen für fortgeschrittene Benutzer"
+
+#: ../../source/orga.md:10
+msgid "Panneau des résultats de la sélection"
+msgstr "Resultatliste für Abfragen"
+
+#: ../../source/orga.md:11
+msgid "Vues alternatives"
+msgstr "Alternative Ansichten"
+

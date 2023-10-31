@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Topomat Technologies
+# This file is distributed under the same license as the _maps Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _maps Template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 10:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../source/searchbar.md:1
+msgid "Barre de recherche"
+msgstr ""
+
+#: ../../source/searchbar.md:3
+msgid ""
+"Cette fonction permet, en saisissant librement du texte, d'effectuer des "
+"recherches sur les données, les coordonnées et les principaux objets du "
+"territoire : commune, adresse, localité postale ou numéro postal (NPA) "
+"correspondant, parcelle (bien-fonds), droit distinct et permanent (DDP), "
+"lieu-dit, identificateur fédéral de bâtiment (EGID), permis de construire"
+" (numéro d’affaire DATEC)."
+msgstr ""
+"In diesem Textfeld können sowohl Datenebenen gesucht, als auch Koordinaten oder wichtige amtliche Einteilungen eingeben werden: Gemeinden, Adressen, Postadressen und Postleitzahlen, sowie Parzellen (Liegenschaften), dauernde und selbständige Rechte, Ortsnamen, Eidgenössische Gebäude ID (EGID) und Baubewilligungen (DATEC-Nummer)."
+
+#: ../../source/searchbar.md:5
+msgid ""
+"Le symbole affiché à droite de la barre de recherche vous donne une "
+"indication sur la situation :"
+msgstr ""
+"Das auf der rechten Seite des Suchfelds angezeigtes Symbol gibt Ihnen einen Hinweis auf die Situation:"
+
+#: ../../source/searchbar.md:7
+msgid ""
+"![](_static/images/searchbar/214.jpg) **En attente d'une saisie** : "
+"L'application est prête à recevoir une nouvelle demande."
+msgstr ""
+"![](_static/images/searchbar/214.jpg) **Eingabe gewartet** : Es ist möglich eine neue Suche zu starten."
+
+#: ../../source/searchbar.md:8
+msgid ""
+"![](_static/images/searchbar/215.jpg) **Pas assez de caractères** : Il "
+"faut saisir au minimum trois caractères pour débuter une recherche."
+msgstr ""
+"![](_static/images/searchbar/215.jpg) *Zu wenig Zeichen** : Mindestens drei Buchstaben/Ziffern müssen eingegeben werden."
+
+#: ../../source/searchbar.md:9
+msgid ""
+"![](_static/images/searchbar/216.jpg) **En cours de traitement** : Une "
+"demande peut prendre quelques secondes pour être traitée."
+msgstr ""
+"![](_static/images/searchbar/216.jpg) **In Verarbeitung** : Eine Suche kann einige Sekunden brauchen."
+
+#: ../../source/searchbar.md:10
+msgid ""
+"![](_static/images/searchbar/217.jpg) **Aucun résultat** : Votre demande "
+"n'a pas donné de résultat en retour."
+msgstr ""
+"![](_static/images/searchbar/217.jpg) **Keine Ergebnisse** : Die Suche hat zu keinem Ergebnis geführt."
+
+#: ../../source/searchbar.md:12
+msgid ""
+"Il peut être nécessaire d'affiner les résultats en précisant votre "
+"recherche."
+msgstr ""
+"Es kann notwendig sein, die Resultate zu verfeinern, indem die Suche angepasst wird."
+
+#: ../../source/searchbar.md:14
+msgid "Recherche de lieu"
+msgstr "Ortsuche"
+
+#: ../../source/searchbar.md:15
+msgid "Un clic sur une des réponses centrera la carte sur le choix effectué."
+msgstr "Ein Klick auf ein Ergebnis zentriert die Karte auf die Auswahl."
+
+#: ../../source/searchbar.md:20
+msgid "Recherche de données"
+msgstr "Suche nach Datenebenen"
+
+#: ../../source/searchbar.md:21
+msgid ""
+"Les données apparaissent sous la barre « Données ». Un clic sur une de "
+"ces réponses ajoutera la donnée sur la carte et dans la fenêtre « Couche "
+"sélectionnées »."
+msgstr ""
+"Die Datenebenen erscheinen unter der Rubrik „Daten“. Ein Klick auf das Ergebnis fügt die Datenebe der Karte hinzu (unter der Rubrik „Ausgewählte Ebenen“)"
+
+#: ../../source/searchbar.md:26
+msgid ""
+"Lorsqu’il y a trop de réponses, un chiffre indique leur nombre dans la "
+"barre « Données ». Il suffit de cliquer sur cette barre pour avoir accès "
+"à l’ensemble des réponses."
+msgstr ""
+"Wenn die Ergebnisliste zu lange ist, wird die Anzahl Antworten unter der Rubrik „Daten“ angezeigt. Man kann auf die Rubrik klicken, um sämtliche Ergebnisse anzuzeigen."
+
+#: ../../source/searchbar.md:31
+msgid "Recherche de coordonnées"
+msgstr "Koordinatensuche"
+
+#: ../../source/searchbar.md:32
+msgid ""
+"Des coordonnées peuvent être saisies dans le champ de recherche. Dès que "
+"les coordonnées X et Y sont complètes, la carte est centrée sur le point "
+"correspondant (à l’intersection des deux lignes jaunes) et une fenêtre de"
+" mesure apparaît avec des options à disposition."
+msgstr ""
+"Koordinaten können im Suchfeld eingegeben werden. Sobald X- und Y-Koordinaten komplett sind, wird die Karte auf den entsprechenden Punkt zentriert (gelbes Kreuz) und ein Fenster erscheint mit verschiedenen Optionen."
+
+#: ../../source/searchbar.md:37
+msgid ""
+"La saisie peut être effectuée en coordonnées nationales MN03 ou MN95 (par"
+" ex. \"578053 183596\") ou en degrés décimaux de latitude / longitude "
+"(par ex. \"46.8 7.15\"). Le point \".\" doit être utilisé comme "
+"séparateur décimal."
+msgstr ""
+"Es können sowohl Schweizer Koordinaten (System LV03 oder LV95; z.B. "578053 183596") als auch geografische Koordinaten (z.B. "46.8 7.15") gesucht werden. Der Punkt „.“ muss als Trennzeichen zu Dezimalstellen (anstelle des Kommas) verwendet werden."
+

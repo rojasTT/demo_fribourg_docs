@@ -3,6 +3,7 @@ dist
 calcite
 esri_assets
 workers
-public/docs
+# public/docs
 docs/.venv
-*.po
+docs/build/doctrees
+docs/build/gettext

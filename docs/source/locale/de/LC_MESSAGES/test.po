@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _maps Template \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-17 12:00+0200\n"
+"POT-Creation-Date: 2023-10-31 10:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: ../../source/test.md:1
 msgid "Test MarkDown section"
@@ -61,190 +61,194 @@ msgid "h4 Heading"
 msgstr ""
 
 #: ../../source/test.md:19
-msgid "balb bla blalblllaalba"
+msgid "123 123 123"
 msgstr ""
 
 #: ../../source/test.md:21
-msgid "Bob"
-msgstr ""
-
-#: ../../source/test.md:23
 msgid "h5 Heading"
 msgstr ""
 
-#: ../../source/test.md:24
+#: ../../source/test.md:22
 msgid "h6 Heading"
 msgstr ""
 
-#: ../../source/test.md:27
+#: ../../source/test.md:24
+msgid "text ting"
+msgstr ""
+
+#: ../../source/test.md:26
 msgid "Horizontal Rules"
 msgstr ""
 
-#: ../../source/test.md:30
-msgid "bob"
+#: ../../source/test.md:28
+msgid "Lorepslum nj"
 msgstr ""
 
-#: ../../source/test.md:32
+#: ../../source/test.md:30
+msgid "Hello"
+msgstr ""
+
+#: ../../source/test.md:31
 msgid "ok"
 msgstr ""
 
-#: ../../source/test.md:36
+#: ../../source/test.md:35
 msgid "Typographic replacements"
 msgstr ""
 
-#: ../../source/test.md:38
+#: ../../source/test.md:37
 msgid "Enable typographer option to see result."
 msgstr ""
 
-#: ../../source/test.md:40
+#: ../../source/test.md:39
 msgid "(c) (C) (r) (R) (tm) (TM) (p) (P) +-"
 msgstr ""
 
-#: ../../source/test.md:42
+#: ../../source/test.md:41
 msgid "test.. test... test..... test?..... test!...."
 msgstr ""
 
-#: ../../source/test.md:44
+#: ../../source/test.md:43
 msgid "!!!!!! ???? ,,  -- ---"
 msgstr ""
 
-#: ../../source/test.md:46
+#: ../../source/test.md:45
 msgid "\"Smartypants, double quotes\" and 'single quotes'"
 msgstr ""
 
-#: ../../source/test.md:49
+#: ../../source/test.md:48
 msgid "Emphasis"
 msgstr ""
 
-#: ../../source/test.md:51
+#: ../../source/test.md:50
 msgid "**This is bold text**"
 msgstr ""
 
-#: ../../source/test.md:53
+#: ../../source/test.md:52
 msgid "__This is bold text__"
 msgstr ""
 
-#: ../../source/test.md:55
+#: ../../source/test.md:54
 msgid "*This is italic text*"
 msgstr ""
 
-#: ../../source/test.md:57
+#: ../../source/test.md:56
 msgid "_This is italic text_"
 msgstr ""
 
-#: ../../source/test.md:59
+#: ../../source/test.md:58
 msgid "~~Strikethrough~~"
 msgstr ""
 
-#: ../../source/test.md:62
+#: ../../source/test.md:61
 msgid "Blockquotes"
 msgstr ""
 
-#: ../../source/test.md:65
+#: ../../source/test.md:64
 msgid "Blockquotes can also be nested..."
 msgstr ""
 
-#: ../../source/test.md:66
+#: ../../source/test.md:65
 msgid "...by using additional greater-than signs right next to each other..."
 msgstr ""
 
-#: ../../source/test.md:67
+#: ../../source/test.md:66
 msgid "...or with spaces between arrows."
 msgstr ""
 
-#: ../../source/test.md:70
+#: ../../source/test.md:69
 msgid "Lists"
 msgstr ""
 
-#: ../../source/test.md:72
+#: ../../source/test.md:71
 msgid "Unordered"
 msgstr ""
 
-#: ../../source/test.md:74
+#: ../../source/test.md:73
 msgid "Create a list by starting a line with `+`, `-`, or `*`"
 msgstr ""
 
-#: ../../source/test.md:75
+#: ../../source/test.md:74
 msgid "Sub-lists are made by indenting 2 spaces:"
 msgstr ""
 
-#: ../../source/test.md:76
+#: ../../source/test.md:75
 msgid "Marker character change forces new list start:"
 msgstr ""
 
-#: ../../source/test.md:77
+#: ../../source/test.md:76
 msgid "Ac tristique libero volutpat at"
 msgstr ""
 
-#: ../../source/test.md:78
+#: ../../source/test.md:77
 msgid "Facilisis in pretium nisl aliquet"
 msgstr ""
 
-#: ../../source/test.md:79
+#: ../../source/test.md:78
 msgid "Nulla volutpat aliquam velit"
 msgstr ""
 
-#: ../../source/test.md:80
+#: ../../source/test.md:79
 msgid "Very easy!"
 msgstr ""
 
-#: ../../source/test.md:82
+#: ../../source/test.md:81
 msgid "Ordered"
 msgstr ""
 
-#: ../../source/test.md:84
+#: ../../source/test.md:83
 msgid "Lorem ipsum dolor sit amet"
 msgstr ""
 
-#: ../../source/test.md:85
+#: ../../source/test.md:84
 msgid "Consectetur adipiscing elit"
 msgstr ""
 
-#: ../../source/test.md:86
+#: ../../source/test.md:85
 msgid "Integer molestie lorem at massa"
 msgstr ""
 
-#: ../../source/test.md:89
+#: ../../source/test.md:88
 msgid "You can use sequential numbers..."
 msgstr ""
 
-#: ../../source/test.md:90
+#: ../../source/test.md:89
 msgid "...or keep all the numbers as `1.`"
 msgstr ""
 
-#: ../../source/test.md:92
+#: ../../source/test.md:91
 msgid "Start numbering with offset:"
 msgstr ""
 
-#: ../../source/test.md:94
+#: ../../source/test.md:93
 msgid "foo"
 msgstr ""
 
-#: ../../source/test.md:95
+#: ../../source/test.md:94
 msgid "bar"
 msgstr ""
 
-#: ../../source/test.md:98
+#: ../../source/test.md:97
 msgid "Code"
 msgstr ""
 
-#: ../../source/test.md:100
+#: ../../source/test.md:99
 msgid "Inline `code`"
 msgstr ""
 
-#: ../../source/test.md:102
+#: ../../source/test.md:101
 msgid "Indented code"
 msgstr ""
 
-#: ../../source/test.md:110
+#: ../../source/test.md:109
 msgid "Block code \"fences\""
 msgstr ""
 
-#: ../../source/test.md:116
+#: ../../source/test.md:115
 msgid "Syntax highlighting"
 msgstr ""
 
-#: ../../source/test.md:126
+#: ../../source/test.md:125
 msgid "Tables"
 msgstr ""
 
@@ -280,214 +284,171 @@ msgstr ""
 msgid "extension to be used for dest files."
 msgstr ""
 
-#: ../../source/test.md:134
+#: ../../source/test.md:133
 msgid "Right aligned columns"
 msgstr ""
 
-#: ../../source/test.md:143
-msgid "Links"
-msgstr ""
-
-#: ../../source/test.md:145
-msgid "[link text](http://dev.nodeca.com)"
-msgstr ""
-
-#: ../../source/test.md:147
-msgid "[link with title](http://nodeca.github.io/pica/demo/ \"title text!\")"
-msgstr ""
-
-#: ../../source/test.md:149
-msgid "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)"
-msgstr ""
-
-#: ../../source/test.md:151
-msgid "[link to section](second.md#tit-section)"
-msgstr ""
-
-#: ../../source/test.md:153
-msgid "[link to other section](first.md)"
-msgstr ""
-
-#: ../../source/test.md:154
+#: ../../source/test.md:142
 msgid "Images"
 msgstr ""
 
-#: ../../source/test.md:156
-msgid ""
-"![Minion](https://octodex.github.com/images/minion.png) "
-"![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "
-"\"The Stormtroopocat\")"
-msgstr ""
-
-#: ../../source/test.md:156
-msgid "Minion"
-msgstr ""
-
-#: ../../source/test.md:156
-msgid "Stormtroopocat"
-msgstr ""
-
-#: ../../source/test.md:159
+#: ../../source/test.md:147
 msgid "Like links, Images also have a footnote style syntax"
 msgstr ""
 
-#: ../../source/test.md:161
+#: ../../source/test.md:149
 msgid "![Alt text][id]"
 msgstr ""
 
-#: ../../source/test.md:161
-msgid "Alt text"
-msgstr ""
-
-#: ../../source/test.md:163
+#: ../../source/test.md:151
 msgid "With a reference later in the document defining the URL location:"
 msgstr ""
 
-#: ../../source/test.md:168
+#: ../../source/test.md:156
 msgid "Plugins"
 msgstr ""
 
-#: ../../source/test.md:170
+#: ../../source/test.md:158
 msgid ""
 "The killer feature of `markdown-it` is very effective support of [syntax "
 "plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin)."
 msgstr ""
 
-#: ../../source/test.md:174
+#: ../../source/test.md:162
 msgid "[Emojies](https://github.com/markdown-it/markdown-it-emoji)"
 msgstr ""
 
-#: ../../source/test.md:176
+#: ../../source/test.md:164
 msgid "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:"
 msgstr ""
 
-#: ../../source/test.md:178
+#: ../../source/test.md:166
 msgid "Shortcuts (emoticons): :-) :-( 8-) ;)"
 msgstr ""
 
-#: ../../source/test.md:180
+#: ../../source/test.md:168
 msgid ""
 "see [how to change output](https://github.com/markdown-it/markdown-it-"
 "emoji#change-output) with twemoji."
 msgstr ""
 
-#: ../../source/test.md:183
+#: ../../source/test.md:171
 msgid ""
 "[Subscript](https://github.com/markdown-it/markdown-it-sub) / "
 "[Superscript](https://github.com/markdown-it/markdown-it-sup)"
 msgstr ""
 
-#: ../../source/test.md:185
+#: ../../source/test.md:173
 msgid "19^th^"
 msgstr ""
 
-#: ../../source/test.md:186
+#: ../../source/test.md:174
 msgid "H~2~O"
 msgstr ""
 
-#: ../../source/test.md:189
+#: ../../source/test.md:177
 msgid "[\\<ins>](https://github.com/markdown-it/markdown-it-ins)"
 msgstr ""
 
-#: ../../source/test.md:191
+#: ../../source/test.md:179
 msgid "++Inserted text++"
 msgstr ""
 
-#: ../../source/test.md:194
+#: ../../source/test.md:182
 msgid "[\\<mark>](https://github.com/markdown-it/markdown-it-mark)"
 msgstr ""
 
-#: ../../source/test.md:196
+#: ../../source/test.md:184
 msgid "==Marked text=="
 msgstr ""
 
-#: ../../source/test.md:199
+#: ../../source/test.md:187
 msgid "[Footnotes](https://github.com/markdown-it/markdown-it-footnote)"
 msgstr ""
 
-#: ../../source/test.md:201
+#: ../../source/test.md:189
 msgid "Footnote 1 link[^first]."
 msgstr ""
 
-#: ../../source/test.md:203
+#: ../../source/test.md:191
 msgid "Footnote 2 link[^second]."
 msgstr ""
 
-#: ../../source/test.md:205
+#: ../../source/test.md:193
 msgid "Inline footnote^[Text of inline footnote] definition."
 msgstr ""
 
-#: ../../source/test.md:207
+#: ../../source/test.md:195
 msgid "Duplicated footnote reference[^second]."
 msgstr ""
 
-#: ../../source/test.md:216
+#: ../../source/test.md:204
 msgid "[Definition lists](https://github.com/markdown-it/markdown-it-deflist)"
 msgstr ""
 
-#: ../../source/test.md:218
+#: ../../source/test.md:206
 msgid "Term 1"
 msgstr ""
 
-#: ../../source/test.md:220
+#: ../../source/test.md:208
 msgid ":   Definition 1 with lazy continuation."
 msgstr ""
 
-#: ../../source/test.md:223
+#: ../../source/test.md:211
 msgid "Term 2 with *inline markup*"
 msgstr ""
 
-#: ../../source/test.md:225
+#: ../../source/test.md:213
 msgid ":   Definition 2"
 msgstr ""
 
-#: ../../source/test.md:231
+#: ../../source/test.md:219
 msgid "_Compact style:_"
 msgstr ""
 
-#: ../../source/test.md:233
+#: ../../source/test.md:221
 msgid "Term 1   ~ Definition 1"
 msgstr ""
 
-#: ../../source/test.md:236
+#: ../../source/test.md:224
 msgid "Term 2   ~ Definition 2a   ~ Definition 2b"
 msgstr ""
 
-#: ../../source/test.md:241
+#: ../../source/test.md:229
 msgid "[Abbreviations](https://github.com/markdown-it/markdown-it-abbr)"
 msgstr ""
 
-#: ../../source/test.md:243
+#: ../../source/test.md:231
 msgid "This is HTML abbreviation example."
 msgstr ""
 
-#: ../../source/test.md:245
+#: ../../source/test.md:233
 msgid ""
 "It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\""
 " and so on."
 msgstr ""
 
-#: ../../source/test.md:247
+#: ../../source/test.md:235
 msgid "*[HTML]: Hyper Text Markup Language"
 msgstr ""
 
-#: ../../source/test.md:249
+#: ../../source/test.md:237
 msgid "[Custom containers](https://github.com/markdown-it/markdown-it-container)"
 msgstr ""
 
-#: ../../source/test.md:251
+#: ../../source/test.md:239
 msgid "::: warning *here be dragons* :::"
 msgstr ""
 
-#: ../../source/test.md:209
+#: ../../source/test.md:197
 msgid "Footnote **can have markup**"
 msgstr ""
 
-#: ../../source/test.md:211
+#: ../../source/test.md:199
 msgid "and multiple paragraphs."
 msgstr ""
 
-#: ../../source/test.md:213
+#: ../../source/test.md:201
 msgid "Footnote text."
 msgstr ""
 

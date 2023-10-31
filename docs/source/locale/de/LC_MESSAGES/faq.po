@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Topomat Technologies
+# This file is distributed under the same license as the _maps Template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _maps Template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-31 10:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../source/faq.md:1
+msgid "Foire aux questions (FAQ)"
+msgstr ""
+"Häufig gestellte Fragen (FAQ)"
+
+#: ../../source/faq.md:3
+msgid ""
+"**Problème d'affichage de la carte :** Depuis quelques jours plus rien ne"
+" marche comme avant ! La carte ne s’affiche pas dans mon navigateur. Que "
+"faire?"
+msgstr ""
+"**Die Karte wird in meinem Browser nicht angezeigt.**"
+
+#: ../../source/faq.md:4
+msgid ""
+"Le problème peut être résolu en vidant le cache et en redémarrant "
+"l’application, et ceci quel que soit le navigateur et le système "
+"d’exploitation."
+msgstr ""
+" Das Problem kann behoben werden, indem Sie den Cache Ihres Internet-Browsers leeren und die Anwendung neu starten, unabhängig davon, welchen Browser oder welches Betriebssystem Sie verwenden."
+
+#: ../../source/faq.md:5
+msgid ""
+"Remarque : la façon de vider le cache varie selon le navigateur et "
+"l’appareil utilisé (ordinateur, smartphone). Si vous ne savez pas comment"
+" vider votre cache, tapez « vider le cache + [le nom de votre navigateur]"
+" » dans un moteur de recherche."
+msgstr ""
+"Bemerkung : Die Vorgehensweise, um den Cache Ihres Browser zu leeren, unterscheidet sich je nach Browser und verwendetem Gerät (Computer, Smartphone). Wenn sie nicht wissen, wie Sie Ihren Brwoser-Cache leeren, suchen Sie in einer Suchmaschine nach « Cache leeren + [Name ihres Browsers] »."
+
+
+#: ../../source/faq.md:6
+msgid ""
+"Si vous travaillez sur un smartphone ou une tablette Android, il peut "
+"être nécessaire de vider aussi le cache du navigateur Android et pas "
+"seulement celui du navigateur utilisé."
+msgstr ""
+"Wenn Sie mit einem Android-Smartphone oder einem Android-Tablet arbeiten, müssen Sie allenfalls auch den Cache Ihres Android-Browsers und nicht nur jenen des aktuell verwendeten Browsers leeren."
+
+#: ../../source/faq.md:7
+msgid ""
+"Nous modifions régulièrement le portail cartographique, que ce soit pour "
+"modifier le contenu, corriger des erreurs ou ajouter de nouvelles "
+"fonctionnalités. En général, cela n'a pas de conséquence, mais parfois "
+"votre navigateur garde en cache des informations qui ne sont plus "
+"valables, ce qui peut provoquer des erreurs ou un comportement "
+"incompréhensible. Dans ce cas, il suffit souvent de vider le cache de "
+"votre navigateur puis de recharger l'application."
+msgstr ""
+"bla bla bla"
+
+#: ../../source/faq.md:9
+msgid "**Authentification requise :** Il m'est demandé de m'authentifier."
+msgstr ""
+"Eine Authentifizierung ist erforderlich."
+
+#: ../../source/faq.md:10
+msgid ""
+"Vous pouvez ignorer ce message d’avertissement (simplement fermer la "
+"fenêtre après quelques secondes). Il ne se produit que si la connexion "
+"avec map.geo.fr.ch est un peu lente."
+msgstr ""
+"Sie können diese Warnmeldung ignorieren und schliessen. Diese Meldung erscheint lediglich im Zusammenhang mit einer langsamen Verbindung zu map.geo.fr.ch."
+
+#: ../../source/faq.md:11
+msgid ""
+"map.geo.fr.ch est accessible librement. Aucun compte ni mot de passe "
+"n’est nécessaire."
+msgstr ""
+"map.geo.fr.ch ist frei zugänglich und benötigt weder ein Benutzerkonto noch ein Passwort."
+
+#: ../../source/faq.md:12
+msgid "De temps en temps, il est aussi bon de vider le cache de votre navigateur."
+msgstr ""
+"Es empfiehlt sich, gelegentlich Ihren Browser-Cache zu leeren."
+

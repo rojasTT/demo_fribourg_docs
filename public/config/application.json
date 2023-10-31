@@ -8,9 +8,9 @@
   ],
   "template": "default",
   "portalUrl": "https://topomat.maps.arcgis.com",
-  "oauthappid": "zjkYLHFSCPnbvjJ1",
+  "oauthappid": "h7nf2TSctlBeudim",
   "_oauthappid_sitg": "9LModLKY8N60ELHj",
-  "oauthappid_tt": "dKEJfzaZqi6HvNz0",
+  "oauthappid_tt": "QDvQklcZRkLwxAdy",
   "oauthappid_dev": "h7nf2TSctlBeudim",
   "dataConfigUrl": "config/dataConfig.json",
   "authenticationPopup": true,
@@ -129,7 +129,7 @@
     "helpButton": {
       "class": "_maps/widgets/ui/HelpButton",
       "options": {
-        "path": "docs/html/acceuil.html"
+        "path": "docs/fr/acceuil.html"
       }
 
     },

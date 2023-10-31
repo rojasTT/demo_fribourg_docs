@@ -1,0 +1,50 @@
+{% extends "!layout.html" %}
+{% block docs_navbar %}
+<div class="TEST123">TEST123</div>
+<!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
+<ul class="language-switcher">
+    <li>
+        <a href="" title="fr">Français</a>
+    </li>
+    <li>
+        <a href="" title="de">Deutsch</a>
+    </li>
+</ul>
+
+<script>
+    window.onload = (event) => {
+        const langSwitcher = document.getElementsByClassName('language-switcher')[0];
+        // console.log(langSwitcher);
+        Array.from(langSwitcher.children).forEach((li) => {
+            const href = window.location.href;
+            const a = li.children[0];
+            if (document.documentElement.lang === a.title) {
+                a.classList.add('active')
+            } else {
+                a.classList.remove('active')
+            }
+            if (a.title === 'fr') {
+                a.href = href.replace('/de/', '/fr/');
+            } else if (a.title === 'de') {
+                a.href = href.replace('/fr/', '/de/');
+            } else {
+                console.error('dafuk?!');
+            }
+        })
+    }
+    // function switchLanguage(lang) {
+    //     var path = window.location.href;
+    //     let newPath;
+    //     console.log(path);
+    //     const dest = '/' + lang + '/';
+    //     if (path.includes('/fr/')) {
+    //         newPath = path.replace(/\/fr\//g, '/de/');
+    //     } else if (path.includes('/de/')) {
+    //         newPath = path.replace(/\/de\//g, '/fr/');
+    //     } else {
+    //         console.error('dafuk?');
+    //     }
+    //     window.location.href = newPath;
+    // }
+</script>
+{% endblock %}

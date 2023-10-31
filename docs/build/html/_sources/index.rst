@@ -1,5 +1,5 @@
 Demo documentation - Fribourg
-=====================
+=============================
 
 .. toctree::
     acceuil.md

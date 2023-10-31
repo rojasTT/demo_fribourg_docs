@@ -11,6 +11,24 @@ html {
     display: none !important;
 }
 
+.language-switcher {
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.language-switcher li {
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.active {
+    /* cursor:none !important; */
+    color: gray !important;
+}
+.active:hover {
+    text-decoration: none !important;
+}
+
 .docs-navbar {
     position: absolute;
     top: 0;
