@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Barre de recherche &#8212; _maps Template 0.1 Dokumentation</title>
+    <title>Suchleiste &#8212; _maps Template 0.1 Dokumentation</title>
   
   
   
@@ -102,52 +102,41 @@
 </form></div>
   </div>
   
-<div class="TEST123">TEST123</div>
 <!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
-<ul class="language-switcher">
-    <li>
-        <a href="" title="fr">Français</a>
-    </li>
-    <li>
-        <a href="" title="de">Deutsch</a>
-    </li>
-</ul>
+<div class="language-switcher">
+    <span href="" title="fr" class="selectedLang">Français</span>
+    <span href="" title="de" class="selectedLang">Deutsch</span>
+</div>
 
 <script>
     window.onload = (event) => {
         const langSwitcher = document.getElementsByClassName('language-switcher')[0];
-        console.log(langSwitcher);
-        Array.from(langSwitcher.children).forEach((li) => {
+        // console.log(langSwitcher);
+        Array.from(langSwitcher.children).forEach((span) => {
             const href = window.location.href;
-            const a = li.children[0];
-            if (document.documentElement.lang === a.title) {
-                a.classList.add('active')
+            if (document.documentElement.lang === span.title) {
+                span.classList.add('selectedLang');
             } else {
-                a.classList.remove('active')
+                span.classList.remove('selectedLang')
             }
-            if (a.title === 'fr') {
-                a.href = href.replace('/de/', '/fr/');
-            } else if (a.title === 'de') {
-                a.href = href.replace('/fr/', '/de/');
+            if (span.title === 'fr') {
+                span.href = href.replace('/de/', '/fr/');
+            } else if (span.title === 'de') {
+                span.href = href.replace('/fr/', '/de/');
             } else {
                 console.error('dafuk?!');
             }
+            span.addEventListener('click', () => {
+                window.location.replace(span.href);
+            })
         })
     }
-    // function switchLanguage(lang) {
-    //     var path = window.location.href;
-    //     let newPath;
-    //     console.log(path);
-    //     const dest = '/' + lang + '/';
-    //     if (path.includes('/fr/')) {
-    //         newPath = path.replace(/\/fr\//g, '/de/');
-    //     } else if (path.includes('/de/')) {
-    //         newPath = path.replace(/\/de\//g, '/fr/');
-    //     } else {
-    //         console.error('dafuk?');
-    //     }
-    //     window.location.href = newPath;
-    // }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelectorAll('btn dropdown-toggle');
+        console.log(btn);
+        console.log('FUCKKKKK');
+    })
 </script>
 
   <div class="bd-container">
@@ -161,12 +150,6 @@
     
     
     
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item"><button>TESTBUTTON!</button></div>
-        
-      </div>
     
   </div>
   
@@ -193,9 +176,9 @@
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Page d’accueil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Home Page</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orga.html">Aufbau der Online-Karten</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Barre de recherche</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Suchleiste</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">Häufig gestellte Fragen (FAQ)</a></li>
 </ul>
 
@@ -287,22 +270,6 @@
 </div>
 
 
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Vollbildmodus"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -333,7 +300,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Barre de recherche</h1>
+    <h1>Suchleiste</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -358,7 +325,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="barre-de-recherche">
-<h1>Barre de recherche<a class="headerlink" href="#barre-de-recherche" title="Permalink to this heading">#</a></h1>
+<h1>Suchleiste<a class="headerlink" href="#barre-de-recherche" title="Permalink to this heading">#</a></h1>
 <p>In diesem Textfeld können sowohl Datenebenen gesucht, als auch Koordinaten oder wichtige amtliche Einteilungen eingeben werden: Gemeinden, Adressen, Postadressen und Postleitzahlen, sowie Parzellen (Liegenschaften), dauernde und selbständige Rechte, Ortsnamen, Eidgenössische Gebäude ID (EGID) und Baubewilligungen (DATEC-Nummer).</p>
 <p>Das auf der rechten Seite des Suchfelds angezeigtes Symbol gibt Ihnen einen Hinweis auf die Situation:</p>
 <ul class="simple">

@@ -101,52 +101,41 @@
 </form></div>
   </div>
   
-<div class="TEST123">TEST123</div>
 <!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
-<ul class="language-switcher">
-    <li>
-        <a href="" title="fr">Français</a>
-    </li>
-    <li>
-        <a href="" title="de">Deutsch</a>
-    </li>
-</ul>
+<div class="language-switcher">
+    <span href="" title="fr" class="selectedLang">Français</span>
+    <span href="" title="de" class="selectedLang">Deutsch</span>
+</div>
 
 <script>
     window.onload = (event) => {
         const langSwitcher = document.getElementsByClassName('language-switcher')[0];
-        console.log(langSwitcher);
-        Array.from(langSwitcher.children).forEach((li) => {
+        // console.log(langSwitcher);
+        Array.from(langSwitcher.children).forEach((span) => {
             const href = window.location.href;
-            const a = li.children[0];
-            if (document.documentElement.lang === a.title) {
-                a.classList.add('active')
+            if (document.documentElement.lang === span.title) {
+                span.classList.add('selectedLang');
             } else {
-                a.classList.remove('active')
+                span.classList.remove('selectedLang')
             }
-            if (a.title === 'fr') {
-                a.href = href.replace('/de/', '/fr/');
-            } else if (a.title === 'de') {
-                a.href = href.replace('/fr/', '/de/');
+            if (span.title === 'fr') {
+                span.href = href.replace('/de/', '/fr/');
+            } else if (span.title === 'de') {
+                span.href = href.replace('/fr/', '/de/');
             } else {
                 console.error('dafuk?!');
             }
+            span.addEventListener('click', () => {
+                window.location.replace(span.href);
+            })
         })
     }
-    // function switchLanguage(lang) {
-    //     var path = window.location.href;
-    //     let newPath;
-    //     console.log(path);
-    //     const dest = '/' + lang + '/';
-    //     if (path.includes('/fr/')) {
-    //         newPath = path.replace(/\/fr\//g, '/de/');
-    //     } else if (path.includes('/de/')) {
-    //         newPath = path.replace(/\/de\//g, '/fr/');
-    //     } else {
-    //         console.error('dafuk?');
-    //     }
-    //     window.location.href = newPath;
-    // }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelectorAll('btn.dropdown-toggle');
+        console.log(btn);
+        console.log('FUCKKKKK');
+    })
 </script>
 
   <div class="bd-container">
@@ -160,12 +149,6 @@
     
     
     
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item"><button>TESTBUTTON!</button></div>
-        
-      </div>
     
   </div>
   
@@ -192,9 +175,9 @@
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Page d’accueil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Home Page</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orga.html">Aufbau der Online-Karten</a></li>
-<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Barre de recherche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Suchleiste</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">Häufig gestellte Fragen (FAQ)</a></li>
 </ul>
 
@@ -237,22 +220,6 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Vollbildmodus"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
 
 <script>
 document.write(`

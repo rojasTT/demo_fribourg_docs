@@ -12,12 +12,12 @@ export default defineConfig({
     server: {
         host: 'dev.topomat.local',
         https: {
-            key: fs.readFileSync('../.cert/key.pem'),
-            cert: fs.readFileSync('../.cert/cert.pem'),
+            key: fs.readFileSync('../../.cert/key.pem'),
+            cert: fs.readFileSync('../../.cert/cert.pem'),
         },
         fs: {
             allow: [ // il faut autoriser vite à chercher des fichiers dans un autre répertoire. Nécessaire pour que les fonts esri (appelées par le css esri dans _maps) se chargent
-                '../_maps',
+                '../../_maps',
                 '..'
             ]
         }

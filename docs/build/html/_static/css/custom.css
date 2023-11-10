@@ -12,13 +12,11 @@ html {
 }
 
 .language-switcher {
-    list-style-type: none !important;
-    text-decoration: none !important;
+    list-style: none;
 }
 
-.language-switcher li {
-    list-style-type: none !important;
-    text-decoration: none !important;
+.language-switcher li a {
+    text-decoration: none;
 }
 
 .active {
@@ -36,12 +34,12 @@ html {
     left: 0;
     /* z-index: 10;*/
     border: 0;
-    display: contents;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    /* align-content: stretch; */
+    /* align-content: stretch; 
     direction: rtl;
-    /* opacity: var(--maps-ui-opacity);
+    opacity: var(--maps-ui-opacity);
     background: var(--maps-ui-foreground-color); */
     height: 40px;
 }

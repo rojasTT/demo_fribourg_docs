@@ -1,9 +1,0 @@
-# Page d’accueil
-
-Le portail cartographique (map.geo.fr.ch) est une application interactive qui permet la consultation de cartes et de données géographiques. L'utilisateur y accède au moyen d'un navigateur web standard (récent) installé sur un ordinateur de bureau, une tablette ou un smartphone ; l'application s'adapte à la taille de l'écran. D'utilisation simple et intuitive, le portail a été conçu de façon à permettre une prise en main rapide. Il offre néanmoins de nombreuses fonctionnalités avancées qui raviront les utilisateurs avertis.
-
-Utilisé de façon classique, il permet d'effectuer des recherches (localisation : p. ex. coordonnées, adresse, parcelle, lieu-dit), d'accéder à différentes cartes thématiques et de choisir entre plusieurs fonds de carte, d'obtenir des informations sur les données consultées, d'imprimer des cartes, d'effectuer des mesures (p. ex. coordonnées, longueur, surface), etc.
-
-L'utilisateur expert est en mesure de créer des cartes complètement personnalisées, d'ajouter des données externes ainsi que de sauvegarder et de partager les cartes produites. Ces dernières peuvent être complétées par des éléments graphiques ou des textes. Il est possible d'établir des profils altimétriques ou d'accéder aux vues panoramiques de Google Street View. Le portail offre également des possibilités étendues d'interrogation et d'analyse des résultats.
-
-Il s'agit d'une réalisation exemplaire en matière de cyberadministration. Au travers de ce portail, les citoyens accèdent en tout temps à une mine d'informations précieuses. Le portail cartographique a pour but de donner accès à un maximum de cartes et de données, et ceci dans toutes les « dimensions » du territoire. Il ambitionne en particulier de publier les « géodonnées de base », qui se fondent sur un acte législatif fédéral, cantonal ou communal.

@@ -1,7 +1,7 @@
 export default class {
     static async getModule(path) {
         switch (path) {
-            case 'app/widgets/Test': return import('app/widgets/Test');
+            case 'app/widgets/TTWidjModel': return import('./TTWidjModel');
             default: return null;
         }
     }

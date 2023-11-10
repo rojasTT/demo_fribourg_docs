@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../source/index.rst:2
 msgid "Demo documentation - Fribourg"
-msgstr ""
+msgstr "Demo Dokumentazion - Fribourg"
 

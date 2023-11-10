@@ -22,8 +22,8 @@ msgstr ""
 
 #: ../../source/faq.md:1
 msgid "Foire aux questions (FAQ)"
-msgstr ""
-"Häufig gestellte Fragen (FAQ)"
+msgstr "Häufig gestellte Fragen (FAQ)"
+
 
 #: ../../source/faq.md:3
 msgid ""

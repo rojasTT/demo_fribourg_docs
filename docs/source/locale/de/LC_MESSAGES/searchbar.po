@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/searchbar.md:1
 msgid "Barre de recherche"
-msgstr ""
+msgstr "Suchleiste"
 
 #: ../../source/searchbar.md:3
 msgid ""

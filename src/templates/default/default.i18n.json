@@ -1,0 +1,44 @@
+{
+    "en": {
+        "title": "Default template",
+        "tools": "Tools",
+        "userProfile": "User profile",
+        "save": "Share map",
+        "data": "Data",
+        "layers": "Layer list",
+        "legend": "Legend",
+        "mapNotes": "Sketch",
+        "print": "Print",
+        "options": "Map options",
+        "geoProcessing": "Geoprocessing tools",
+        "TTWidjModel": "New widget"
+    },
+    "fr": {
+        "title": "Modèle par défaut",
+        "tools": "Outils",
+        "userProfile": "Profil utilisateur",
+        "save": "Partager la carte",
+        "data": "Données",
+        "layers": "Liste des calques",
+        "legend": "Légende",
+        "mapNotes": "Croquis",
+        "print": "Imprimer",
+        "options": "Options de la carte",
+        "geoProcessing": "Outils de géotraitement",
+        "TTWidjModel": "Nouvelle widget"
+    },
+    "de": {
+        "title": "Standardvorlage",
+        "tools": "Verkzeuge",
+        "userProfile": "Benutzerprofil",
+        "save": "Karte teilen",
+        "data": "Daten",
+        "layers": "Ebenenliste",
+        "legend": "Legende",
+        "mapNotes": "Skizze",
+        "print": "Drucken",
+        "options": "Kartenoptionen",
+        "geoProcessing": "Geoverarbeitungswerkzeuge",
+        "TTWidjModel": "Neue Widget"
+    }
+}

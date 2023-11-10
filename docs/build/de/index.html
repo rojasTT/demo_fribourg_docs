@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Demo documentation - Fribourg &#8212; _maps Template 0.1 Dokumentation</title>
+    <title>Demo Dokumentazion - Fribourg &#8212; _maps Template 0.1 Dokumentation</title>
   
   
   
@@ -47,7 +47,7 @@
     <link rel="icon" href="_static/favicon.ico"/>
     <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
     <link rel="search" title="Suche" href="search.html" />
-    <link rel="next" title="Page d’accueil" href="acceuil.html" />
+    <link rel="next" title="Home Page" href="acceuil.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="de"/>
   </head>
@@ -101,52 +101,41 @@
 </form></div>
   </div>
   
-<div class="TEST123">TEST123</div>
 <!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
-<ul class="language-switcher">
-    <li>
-        <a href="" title="fr">Français</a>
-    </li>
-    <li>
-        <a href="" title="de">Deutsch</a>
-    </li>
-</ul>
+<div class="language-switcher">
+    <span href="" title="fr" class="selectedLang">Français</span>
+    <span href="" title="de" class="selectedLang">Deutsch</span>
+</div>
 
 <script>
     window.onload = (event) => {
         const langSwitcher = document.getElementsByClassName('language-switcher')[0];
-        console.log(langSwitcher);
-        Array.from(langSwitcher.children).forEach((li) => {
+        // console.log(langSwitcher);
+        Array.from(langSwitcher.children).forEach((span) => {
             const href = window.location.href;
-            const a = li.children[0];
-            if (document.documentElement.lang === a.title) {
-                a.classList.add('active')
+            if (document.documentElement.lang === span.title) {
+                span.classList.add('selectedLang');
             } else {
-                a.classList.remove('active')
+                span.classList.remove('selectedLang')
             }
-            if (a.title === 'fr') {
-                a.href = href.replace('/de/', '/fr/');
-            } else if (a.title === 'de') {
-                a.href = href.replace('/fr/', '/de/');
+            if (span.title === 'fr') {
+                span.href = href.replace('/de/', '/fr/');
+            } else if (span.title === 'de') {
+                span.href = href.replace('/fr/', '/de/');
             } else {
                 console.error('dafuk?!');
             }
+            span.addEventListener('click', () => {
+                window.location.replace(span.href);
+            })
         })
     }
-    // function switchLanguage(lang) {
-    //     var path = window.location.href;
-    //     let newPath;
-    //     console.log(path);
-    //     const dest = '/' + lang + '/';
-    //     if (path.includes('/fr/')) {
-    //         newPath = path.replace(/\/fr\//g, '/de/');
-    //     } else if (path.includes('/de/')) {
-    //         newPath = path.replace(/\/de\//g, '/fr/');
-    //     } else {
-    //         console.error('dafuk?');
-    //     }
-    //     window.location.href = newPath;
-    // }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelectorAll('btn dropdown-toggle');
+        console.log(btn);
+        console.log('FUCKKKKK');
+    })
 </script>
 
   <div class="bd-container">
@@ -160,12 +149,6 @@
     
     
     
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item"><button>TESTBUTTON!</button></div>
-        
-      </div>
     
   </div>
   
@@ -192,9 +175,9 @@
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Page d’accueil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Home Page</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orga.html">Aufbau der Online-Karten</a></li>
-<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Barre de recherche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Suchleiste</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">Häufig gestellte Fragen (FAQ)</a></li>
 </ul>
 
@@ -286,22 +269,6 @@
 </div>
 
 
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Vollbildmodus"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -330,7 +297,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Demo documentation - Fribourg</h1>
+    <h1>Demo Dokumentazion - Fribourg</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -345,12 +312,12 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="demo-documentation-fribourg">
-<h1>Demo documentation - Fribourg<a class="headerlink" href="#demo-documentation-fribourg" title="Permalink to this heading">#</a></h1>
+<h1>Demo Dokumentazion - Fribourg<a class="headerlink" href="#demo-documentation-fribourg" title="Permalink to this heading">#</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Page d’accueil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acceuil.html">Home Page</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orga.html">Aufbau der Online-Karten</a></li>
-<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Barre de recherche</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Suchleiste</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="searchbar.html#recherche-de-lieu">Ortsuche</a></li>
 <li class="toctree-l2"><a class="reference internal" href="searchbar.html#recherche-de-donnees">Suche nach Datenebenen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="searchbar.html#recherche-de-coordonnees">Koordinatensuche</a></li>
@@ -377,7 +344,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">weiter</p>
-        <p class="prev-next-title">Page d’accueil</p>
+        <p class="prev-next-title">Home Page</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

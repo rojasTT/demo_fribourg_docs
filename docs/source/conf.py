@@ -33,20 +33,9 @@ html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 html_css_files = ['css/custom.css']
 html_theme_options = {
-    "navbar_end": ["button.html"],
-    # "use_download_button": False,
-    # "use_fullscreen_button": False,
-    # "show_toc_level": 2,
-    # "template_path": ["_templates"],
-    # Icons can be added to redirect to clients website
-    # "icon_links": [
-    #         {
-    #             "name": "Topomat",
-    #             "url": "test.html",
-    #             "icon": "_static/images/name-logo.png",
-    #             "type": "local"
-    #         }
-    #     ]
+    # "navbar_end": ["button.html"],
+    "use_download_button": True,
+    "use_fullscreen_button": False,
 }
 # Client html control options:
 html_name = "Documentation demo"

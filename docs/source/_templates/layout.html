@@ -1,50 +1,57 @@
 {% extends "!layout.html" %}
 {% block docs_navbar %}
-<div class="TEST123">TEST123</div>
 <!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
-<ul class="language-switcher">
-    <li>
-        <a href="" title="fr">Français</a>
-    </li>
-    <li>
-        <a href="" title="de">Deutsch</a>
-    </li>
-</ul>
+<div class="language-switcher">
+    <span href="" title="fr" class="selectedLang">Français</span>
+    <span href="" title="de" class="selectedLang">Deutsch</span>
+</div>
 
 <script>
     window.onload = (event) => {
         const langSwitcher = document.getElementsByClassName('language-switcher')[0];
         // console.log(langSwitcher);
-        Array.from(langSwitcher.children).forEach((li) => {
+        Array.from(langSwitcher.children).forEach((span) => {
             const href = window.location.href;
-            const a = li.children[0];
-            if (document.documentElement.lang === a.title) {
-                a.classList.add('active')
+            if (document.documentElement.lang === span.title) {
+                span.classList.add('selectedLang');
             } else {
-                a.classList.remove('active')
+                span.classList.remove('selectedLang')
             }
-            if (a.title === 'fr') {
-                a.href = href.replace('/de/', '/fr/');
-            } else if (a.title === 'de') {
-                a.href = href.replace('/fr/', '/de/');
+            if (span.title === 'fr') {
+                span.href = href.replace('/de/', '/fr/');
+            } else if (span.title === 'de') {
+                span.href = href.replace('/fr/', '/de/');
             } else {
                 console.error('dafuk?!');
             }
+            span.addEventListener('click', () => {
+                window.location.replace(span.href);
+            })
         })
     }
-    // function switchLanguage(lang) {
-    //     var path = window.location.href;
-    //     let newPath;
-    //     console.log(path);
-    //     const dest = '/' + lang + '/';
-    //     if (path.includes('/fr/')) {
-    //         newPath = path.replace(/\/fr\//g, '/de/');
-    //     } else if (path.includes('/de/')) {
-    //         newPath = path.replace(/\/de\//g, '/fr/');
-    //     } else {
-    //         console.error('dafuk?');
-    //     }
-    //     window.location.href = newPath;
-    // }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        const btn = document.querySelectorAll('btn dropdown-toggle');
+        console.log(btn);
+        console.log('FUCKKKKK');
+    })
 </script>
 {% endblock %}
+
+<!-- {% block docs_footer %}
+<script>
+    // Dealing with download onclick using the themes button
+    const dlButton = document.getElementsByClassName("btn dropdown-toggle");
+    dlButton.setAttribute('onclick', "window.open('../pdf/demo_fribourg.pdf')");
+    console.log('dlButton', dlButton);
+    
+    // Removing the MD download option
+    const dls = document.getElementsByClassName('btn btn-sm btn-download-source-button dropdown-item');
+    const ul = dls.parentElement;
+    console.log('ul', ul);
+    
+</script>
+
+{% endblock %} -->
+<!-- <button class="buttonTest" onclick="window.open('../pdf/demo_fribourg.pdf')"><i class="download"></i>pdf</button> -->

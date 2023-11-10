@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Page d’accueil &#8212; _maps Template 0.1 Dokumentation</title>
+    <title>Home Page &#8212; _maps Template 0.1 Dokumentation</title>
   
   
   
@@ -48,7 +48,7 @@
     <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
     <link rel="search" title="Suche" href="search.html" />
     <link rel="next" title="Aufbau der Online-Karten" href="orga.html" />
-    <link rel="prev" title="Demo documentation - Fribourg" href="index.html" />
+    <link rel="prev" title="Demo Dokumentazion - Fribourg" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="de"/>
   </head>
@@ -102,52 +102,41 @@
 </form></div>
   </div>
   
-<div class="TEST123">TEST123</div>
 <!-- <button onclick="window.open('../pdf/_maps_docu.pdf')">PDF</button> -->
-<ul class="language-switcher">
-    <li>
-        <a href="" title="fr">Français</a>
-    </li>
-    <li>
-        <a href="" title="de">Deutsch</a>
-    </li>
-</ul>
+<div class="language-switcher">
+    <span href="" title="fr" class="selectedLang">Français</span>
+    <span href="" title="de" class="selectedLang">Deutsch</span>
+</div>
 
 <script>
     window.onload = (event) => {
         const langSwitcher = document.getElementsByClassName('language-switcher')[0];
-        console.log(langSwitcher);
-        Array.from(langSwitcher.children).forEach((li) => {
+        // console.log(langSwitcher);
+        Array.from(langSwitcher.children).forEach((span) => {
             const href = window.location.href;
-            const a = li.children[0];
-            if (document.documentElement.lang === a.title) {
-                a.classList.add('active')
+            if (document.documentElement.lang === span.title) {
+                span.classList.add('selectedLang');
             } else {
-                a.classList.remove('active')
+                span.classList.remove('selectedLang')
             }
-            if (a.title === 'fr') {
-                a.href = href.replace('/de/', '/fr/');
-            } else if (a.title === 'de') {
-                a.href = href.replace('/fr/', '/de/');
+            if (span.title === 'fr') {
+                span.href = href.replace('/de/', '/fr/');
+            } else if (span.title === 'de') {
+                span.href = href.replace('/fr/', '/de/');
             } else {
                 console.error('dafuk?!');
             }
+            span.addEventListener('click', () => {
+                window.location.replace(span.href);
+            })
         })
     }
-    // function switchLanguage(lang) {
-    //     var path = window.location.href;
-    //     let newPath;
-    //     console.log(path);
-    //     const dest = '/' + lang + '/';
-    //     if (path.includes('/fr/')) {
-    //         newPath = path.replace(/\/fr\//g, '/de/');
-    //     } else if (path.includes('/de/')) {
-    //         newPath = path.replace(/\/de\//g, '/fr/');
-    //     } else {
-    //         console.error('dafuk?');
-    //     }
-    //     window.location.href = newPath;
-    // }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.querySelectorAll('btn.dropdown-toggle');
+        console.log(btn);
+        console.log('FUCKKKKK');
+    })
 </script>
 
   <div class="bd-container">
@@ -161,12 +150,6 @@
     
     
     
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item"><button>TESTBUTTON!</button></div>
-        
-      </div>
     
   </div>
   
@@ -193,9 +176,9 @@
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Page d’accueil</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Home Page</a></li>
 <li class="toctree-l1"><a class="reference internal" href="orga.html">Aufbau der Online-Karten</a></li>
-<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Barre de recherche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="searchbar.html">Suchleiste</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">Häufig gestellte Fragen (FAQ)</a></li>
 </ul>
 
@@ -287,22 +270,6 @@
 </div>
 
 
-
-
-<button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
-  title="Vollbildmodus"
-  data-bs-placement="bottom" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-
-
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -331,7 +298,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Page d’accueil</h1>
+    <h1>Home Page</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -346,7 +313,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="page-daccueil">
-<h1>Page d’accueil<a class="headerlink" href="#page-daccueil" title="Permalink to this heading">#</a></h1>
+<h1>Home Page<a class="headerlink" href="#page-daccueil" title="Permalink to this heading">#</a></h1>
 <p>Die Online-Karten (map.geo.fr.ch) sind eine interaktive Applikation, mit welcher Karten und geografische Daten betrachten werden können. Der Benutzer greift durch einen Standardbrowser (neuere Browser werden unterstützt) auf die Applikation zu. Dies betrifft sowohl PC- Tablet- als auch Smartphonebenutzer. Die Applikation passt sich an die jeweilige Bildschirmgrösse an. Die Benutzung des Portals ist einfach und intuitiv; es wurde optimiert um schnell damit arbeiten zu können. Das Portal bietet zudem unzählige Funktionen für fortgeschrittene Benutzer an.</p>
 <p>Die klassische Benutzung erlaubt verschiedene Suchanfragen auszuführen (Lokalisierung: z.B. Koordinaten, Adressen, Parzellen, Ortsnamen), verschiedene thematische Karten anzuzeigen, mehrere Grundkarten auszuwählen, Informationen zu angezeigten Daten anzuzeigen, Karten auszudrucken und Messungen durchzuführen (z.B. Koordinaten, Längen, Flächen), usw.</p>
 <p>Fortgeschrittene Benutzer können personalisierte Karten erstellen, externe Daten hinzufügen und auch Karten speichern und diese mit anderen Benutzern teilen. Personalisierte Karten können mit grafischen Elementen und Text erweitert werden. Es ist möglich Höhenprofile zu erstellen oder Panoramaansichten mit Google Street View anzuzeigen. Das Portal bietet auch verschiedene Abfrage- und Analysemöglichkeiten an.</p>
@@ -370,7 +337,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">zurück</p>
-        <p class="prev-next-title">Demo documentation - Fribourg</p>
+        <p class="prev-next-title">Demo Dokumentazion - Fribourg</p>
       </div>
     </a>
     <a class="right-next"

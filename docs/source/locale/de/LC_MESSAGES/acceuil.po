@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/acceuil.md:1
 msgid "Page d’accueil"
-msgstr ""
+msgstr "Home Page"
 
 #: ../../source/acceuil.md:3
 msgid ""

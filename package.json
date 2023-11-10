@@ -11,30 +11,31 @@
     "dev:vite": "vite",
     "dev:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./esri_assets",
     "dev:copy_calcite": "mkdirp ./calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./calcite/assets",
-    "dev:workers": "ncp ./node_modules/maps/workers ./workers",
+    "dev:workers": "ncp ./node_modules/@topomat/maps/workers ./workers",
     "build": "run-s build:*",
     "build:doc": "node ./docs/run_batch.js",
     "build:vite": "vite build",
     "build:copy_sjs": "ncp ./node_modules/systemjs/dist/s.min.js ./dist/assets/s.min.js && ncp ./node_modules/systemjs/dist/s.min.js.map ./dist/assets/s.min.js.map",
     "build:copy_esri": "ncp ./node_modules/@arcgis/core/assets ./dist/esri_assets",
     "build:copy_calcite": "mkdirp ./dist/calcite && ncp node_modules/@esri/calcite-components/dist/calcite/assets ./dist/calcite/assets",
-    "build:workers": "ncp ./node_modules/maps/workers ./dist/workers",
+    "build:workers": "ncp ./node_modules/@topomat/maps/workers ./dist/workers",
     "doc": "node ./docs/run_batch.js",
     "devdoc": "node ./docs/run_batch.js dev"
   },
   "devDependencies": {
-    "eslint": "^8.42.0",
+    "eslint": "^8.53.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.0",
     "mkdirp": "^3.0.1",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "systemjs": "^6.14.1",
-    "vite": "^4.3.9"
+    "systemjs": "^6.14.2",
+    "vite": "^4.5.0"
   },
   "dependencies": {
-    "@arcgis/core": "~4.27.1",
-    "@esri/calcite-components": "1.4.2",
-    "maps": "link:..\\_maps_dev"
+    "@arcgis/core": "~4.28.8",
+    "@esri/calcite-components": "1.9.2",
+    "@topomat/maps": "link:..\\..\\_maps_dev"
   }
 }
